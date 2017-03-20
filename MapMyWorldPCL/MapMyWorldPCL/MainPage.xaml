@@ -11,7 +11,7 @@
             Property=Height,Factor=.1,Constant=-90}"
         RelativeLayout.WidthConstraint="{ConstraintExpression
             Type=RelativeToParent,Property=Width,Factor=0.3,Constant=30}"/>
-        <Image Source=""/>
+        
 
     </RelativeLayout>
 
