@@ -32,5 +32,3 @@ C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702p
 C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL\obj\Debug\MapMyWorldPCL.pdb
 C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL\obj\Debug\MapMyWorldPCL.dll.mdb
 C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL\bin\Debug\MapMyWorldPCL.dll.mdb
-C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL\obj\Debug\MapMyWorldPCL.dll.mdb
-C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL\bin\Debug\MapMyWorldPCL.dll.mdb

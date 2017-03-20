@@ -4,19 +4,25 @@
              xmlns:local="clr-namespace:MapMyWorldPCL"
              x:Class="MapMyWorldPCL.MainPage"
              BackgroundColor="White">
-    
-    <RelativeLayout>
-        <Image Source="p1lt.png" x:Name="ltlogo" HeightRequest="100" WidthRequest="100"
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments ="Thickness"
+                    Android="20,20,20,20"/>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+
+        <RelativeLayout>
+            <Image Source="p1lt.png" x:Name="ltlogo" HeightRequest="100" WidthRequest="100"
                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
             Property=Height,Factor=.1,Constant=-90}"
-        RelativeLayout.WidthConstraint="{ConstraintExpression
+                RelativeLayout.WidthConstraint="{ConstraintExpression
             Type=RelativeToParent,Property=Width,Factor=0.3,Constant=30}"/>
-        <Image Source="p1rlogo.png" HeightRequest="100" WidthRequest="100"
-               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=with,Factor=0.5,Constant=-50}"
-               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=height,Factor=0.5,Constant=-50}"/>
+            <Image Source="p1rlogo.png" HeightRequest="100" WidthRequest="100"
+               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=X,Factor=1,Constant=100}"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Y,Factor=1,Constant=100}"/>
 
 
-    </RelativeLayout>
+        </RelativeLayout>
+    </ContentPage.Content>
 
 
 </ContentPage>
