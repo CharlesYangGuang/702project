@@ -1,0 +1,17 @@
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\bin\Debug\MapMyWorldPCL.dll
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\bin\Debug\MapMyWorldPCL.pdb
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\obj\Debug\MapMyWorldPCL.MainPage.xaml.g.cs
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\obj\Debug\MapMyWorldPCL.App.xaml.g.cs
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\obj\Debug\MapMyWorldPCL.dll
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\obj\Debug\MapMyWorldPCL.pdb
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\obj\Debug\MapMyWorldPCL.csprojResolveAssemblyReference.cache
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\obj\Debug\MapMyWorldPCL.dll.mdb
+C:\Users\charl\onedrive\documents\visual studio 2015\Projects\MapMyWorldPCL\MapMyWorldPCL\MapMyWorldPCL\bin\Debug\MapMyWorldPCL.dll.mdb
