@@ -13,7 +13,7 @@ namespace MapMyWorldPCL
         {
             InitializeComponent();
 
-            MainPage = new MapMyWorldPCL.MainPage();
+            MainPage = new MapMyWorldPCL.WelcomePage3();
         }
 
         protected override void OnStart()

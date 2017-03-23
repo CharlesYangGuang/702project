@@ -17,12 +17,20 @@ namespace MapMyWorldPCL {
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Image ltlogo;
+        private global::Xamarin.Forms.Image p1ltlogo;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Image p1mpic;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Image p1rlogo;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
-            ltlogo = this.FindByName<global::Xamarin.Forms.Image>("ltlogo");
+            p1ltlogo = this.FindByName<global::Xamarin.Forms.Image>("p1ltlogo");
+            p1mpic = this.FindByName<global::Xamarin.Forms.Image>("p1mpic");
+            p1rlogo = this.FindByName<global::Xamarin.Forms.Image>("p1rlogo");
         }
     }
 }

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MapMyWorldPCL"
              x:Class="MapMyWorldPCL.MainPage"
-             BackgroundColor="White">
+             BackgroundColor="#F5F1E8">
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments ="Thickness"
                     Android="20,20,20,20"/>
@@ -11,15 +11,25 @@
     <ContentPage.Content>
 
         <RelativeLayout>
-            <Image Source="p1lt.png" x:Name="ltlogo" HeightRequest="100" WidthRequest="100"
+            <Image Source="p1lt.png" x:Name="p1ltlogo" HeightRequest="120" WidthRequest="120"
                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
-            Property=Height,Factor=.1,Constant=-90}"
-                RelativeLayout.WidthConstraint="{ConstraintExpression
-            Type=RelativeToParent,Property=Width,Factor=0.3,Constant=30}"/>
-            <Image Source="p1rlogo.png" HeightRequest="100" WidthRequest="100"
-               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=X,Factor=1,Constant=100}"
-               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Y,Factor=1,Constant=100}"/>
-
+                 Property=Height,Factor=0.1,Constant=-60}"
+               RelativeLayout.XConstraint="{ConstraintExpression
+                 Type=RelativeToParent,Property=X,Factor=0.3,Constant=40}"/>
+            
+            <Image Source="p1rt.png" HeightRequest="110" WidthRequest="100"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Height,Factor=0.1,Constant=-60}"
+                RelativeLayout.XConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Width,Factor=0.5,Constant=160}"/>
+            
+            
+            <Image Source="p1mpic.png" x:Name="p1mpic" HeightRequest="300" WidthRequest="300"
+                   RelativeLayout.XConstraint ="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=1, Constant=180}"
+                   RelativeLayout.YConstraint ="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=1, Constant=150}"/>
+            <Image Source="p1rlogo.png" x:Name="p1rlogo" HeightRequest="80" WidthRequest="100"
+               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=X,Factor=1,Constant=490}"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Y,Factor=1,Constant=190}"/>
 
         </RelativeLayout>
     </ContentPage.Content>
