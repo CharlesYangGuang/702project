@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MapMyWorldPCL.Page15MyEquipment"
+             BackgroundColor="#F5F1E8">
+    <Grid RowSpacing="10" Margin="40">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4">
+            <Label Text="My equipment, aid or modfication support" TextColor="#512769" FontSize="20"/>
+            <Label Text="Think about the equipment, aids or modiications you currently use:" TextColor="Black" FontSize="15"/>
+        </StackLayout>
+        <AbsoluteLayout Grid.Row="0" Grid.Column="3">
+            <Image Source="p16rt" AbsoluteLayout.LayoutBounds="1,0.2,40,40" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        </AbsoluteLayout>
+        <StackLayout Grid.Row="1" Grid.Column="0">
+            <Label Text="What" TextColor="#512769" FontAttributes="Bold" FontSize="15"/>
+            <Label Text="[Example: An iPad]" TextColor="Gray" FontSize="12"/>
+        </StackLayout>
+        <StackLayout Grid.Row="1" Grid.Column="1">
+            <Label Text="For" TextColor="#512769" FontAttributes="Bold" FontSize="15"/>
+            <Label Text="[Example: As a speech aid]" TextColor="Gray" FontSize="12"/>
+        </StackLayout>
+        <StackLayout Grid.Row="1" Grid.Column="2">
+            <Label Text="When" TextColor="#512769" FontAttributes="Bold" FontSize="15"/>
+            <Label Text="[Example: Whenever I want to communicate]" TextColor="Gray" FontSize="12"/>
+        </StackLayout>
+        <StackLayout Grid.Row="1" Grid.Column="3">
+            <Label Text="How Often" TextColor="#512769" FontAttributes="Bold" FontSize="15"/>
+            <Label Text="[Example: Everyday]" TextColor="Gray" FontSize="12"/>
+        </StackLayout>
+
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="0"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="2"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="3"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="0"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="2"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="3"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="0"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="2"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="3"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="0"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="1"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="2"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="3"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="0"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="1"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="2"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="3"/>
+    </Grid>
+</ContentPage>

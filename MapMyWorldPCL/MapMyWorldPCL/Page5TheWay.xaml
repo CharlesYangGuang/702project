@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MapMyWorldPCL.Page5TheWay"
+             BackgroundColor="#F5F1E8">
+    <Grid RowSpacing="10" Margin="40">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="2*"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Text="The ways I communicate and make decisions" TextColor="#512769" FontSize="25" 
+               Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+        <AbsoluteLayout Grid.Row="0" Grid.Column="1">
+            <Image Source="p6rt" AbsoluteLayout.LayoutBounds="1,0.2,40,40" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        </AbsoluteLayout>
+        <StackLayout Grid.Row="1" Grid.Column="0">
+            <Label Text="Decision-making" TextColor="#512769" FontSize="22"/>
+            <Label Text="How I want to be involved:" TextColor="Black" FontSize="18" VerticalOptions="Center"/>
+        </StackLayout>
+        <Label Text="Who I want to help me in my NDIS planning meetin" TextColor="Black" FontSize="18"
+               Grid.Row="1" Grid.Column="1"/>
+        <Editor BackgroundColor="Aqua" Grid.Row="2" Grid.Column="0"/>
+        <Editor BackgroundColor="Aqua" Grid.Row="2" Grid.Column="1"/>
+        <StackLayout Grid.Row="3" Grid.Column="0">
+            <Label Text="What my NDIS representative needs to know about" TextColor="Black" FontSize="22"/>
+            <Label Text="How I communicate:" TextColor="Black" FontSize="18" VerticalOptions="Center"/>
+        </StackLayout>
+        <Label Text="Who makes the final decisions?" TextColor="Black" FontSize="18" Grid.Row="3" Grid.Column="1"/>
+        <Editor BackgroundColor="Aqua" Grid.Row="4" Grid.Column="0"/>
+        <Editor BackgroundColor="Aqua" Grid.Row="4" Grid.Column="1"/>
+
+    </Grid>
+
+</ContentPage>

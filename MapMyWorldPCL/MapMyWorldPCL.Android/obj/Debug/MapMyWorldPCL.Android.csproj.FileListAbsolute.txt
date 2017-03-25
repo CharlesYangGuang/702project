@@ -118,6 +118,19 @@ C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702p
 C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\uploadflags.txt
 C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\p1rt.png
 C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\p1mpic.png
+C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\introduction.png
+C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\p3b.png
+C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\p6rt.jpg
+C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\p7rt.png
+C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\mepic.png
+C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\p8mt.jpg
+C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\p8rt.png
+C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\p9rt.png
+C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\p12rt.png
+C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\p14rt.png
+C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\p15rt.png
+C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\p16rt.png
+C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\bubble.png
 C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\bin\Debug\MapMyWorldPCL.Android.dll.mdb
 C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\bin\Debug\Java.Interop.dll.mdb
 C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\bin\Debug\MapMyWorldPCL.dll.mdb
@@ -148,7 +161,5 @@ C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702p
 C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\introduction.png
-C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\res\drawable\p3b.png
 C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\obj\Debug\MapMyWorldPCL.Android.dll.mdb
 C:\Users\charl\OneDrive\Documents\Visual Studio 2015\Projects\MapMyWorldPCL\702project\MapMyWorldPCL\MapMyWorldPCL.Android\bin\Debug\MapMyWorldPCL.Android.dll.mdb

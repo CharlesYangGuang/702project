@@ -41,8 +41,53 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Page10MyDailyActivities3.xaml.cs">
+      <DependentUpon>Page10MyDailyActivities3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page11MyWeeklySupports1.xaml.cs">
+      <DependentUpon>Page11MyWeeklySupports1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page12MyWeeklySupport2.xaml.cs">
+      <DependentUpon>Page12MyWeeklySupport2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page13MyHealthAndWellbeing.xaml.cs">
+      <DependentUpon>Page13MyHealthAndWellbeing.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page14MyProgramsTherapySupport.xaml.cs">
+      <DependentUpon>Page14MyProgramsTherapySupport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page14MyProgramsTherapySupport2.xaml.cs">
+      <DependentUpon>Page14MyProgramsTherapySupport2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page15MyEquipment.xaml.cs">
+      <DependentUpon>Page15MyEquipment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page15MyEquipment2.xaml.cs">
+      <DependentUpon>Page15MyEquipment2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page16MyDreamGoals.xaml.cs">
+      <DependentUpon>Page16MyDreamGoals.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page4Who.xaml.cs">
+      <DependentUpon>Page4Who.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Page2introduction.xaml.cs">
       <DependentUpon>Page2introduction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page5TheWay.xaml.cs">
+      <DependentUpon>Page5TheWay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page6Important.xaml.cs">
+      <DependentUpon>Page6Important.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page7MyHome.xaml.cs">
+      <DependentUpon>Page7MyHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page8MyDailyActivities1.xaml.cs">
+      <DependentUpon>Page8MyDailyActivities1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page9MyDailyActivities2.xaml.cs">
+      <DependentUpon>Page9MyDailyActivities2.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WelcomePage3.xaml.cs">
@@ -84,6 +129,96 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="WelcomePage3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page4Who.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page5TheWay.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page6Important.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page7MyHome.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page8MyDailyActivities1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page9MyDailyActivities2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page10MyDailyActivities3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page11MyWeeklySupports1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page12MyWeeklySupport2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page13MyHealthAndWellbeing.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page14MyProgramsTherapySupport.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page14MyProgramsTherapySupport2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page15MyEquipment.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page15MyEquipment2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Page16MyDreamGoals.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
