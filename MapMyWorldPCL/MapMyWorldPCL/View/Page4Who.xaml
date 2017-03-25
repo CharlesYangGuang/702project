@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MapMyWorldPCL.View.Page4Who"
+             BackgroundColor="#F5F1E8">
+    <Grid RowSpacing="10" Margin="40">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="2*"/>
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+            <Label Text="Who I am" TextColor="#512769" FontSize="25"/>
+            <Label Text="My feeling, my beliefs and my attitudes are important to how I act, think and express my self"
+                   TextColor="Black" FontSize="20"/>
+        </StackLayout>
+        <StackLayout x:Name="Question" Grid.Row="1" Grid.Column="0">
+            <Label Text="What is important to me?" TextColor="Black" FontSize="17"/>
+            <Label Text="(Think about what makes you happy and what makes you sad)" TextColor="Black" FontSize="17"/>
+        </StackLayout>
+        <Label Text="What do I like about myself?" TextColor="Black" FontSize="17" Grid.Row="1" Grid.Column="1"/>
+        <Editor Text="{Binding WhatImportant}" BackgroundColor="Aqua" Grid.Row="2" Grid.Column="0"/>
+        <Editor Text="{Binding WhatLike}" BackgroundColor="Aqua" Grid.Row="2" Grid.Column="1"/>
+        <Label Text="What do other people like about me?" TextColor="Black" FontSize="17" Grid.Row="3" Grid.Column="0"/>
+        <Label Text="How to best support me?" TextColor="Black" FontSize="17" Grid.Row="3" Grid.Column="1"/>
+        <Editor Text="{Binding OtherLikeAbout}" BackgroundColor="Aqua" Grid.Row="4" Grid.Column="0"/>
+        <Editor Text="{Binding HowSupport}" BackgroundColor="Aqua" Grid.Row="4" Grid.Column="1"/>
+    </Grid>
+</ContentPage>

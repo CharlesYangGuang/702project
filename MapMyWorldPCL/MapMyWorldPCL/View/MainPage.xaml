@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MapMyWorldPCL"
+             x:Class="MapMyWorldPCL.View.MainPage"
+             BackgroundColor="#F5F1E8">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments ="Thickness"
+                    Android="20,20,20,20"/>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+
+        <RelativeLayout>
+            <Image Source="p1lt.png" x:Name="p1ltlogo" HeightRequest="120" WidthRequest="120"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+                 Property=Height,Factor=0.1,Constant=-60}"
+               RelativeLayout.XConstraint="{ConstraintExpression
+                 Type=RelativeToParent,Property=X,Factor=0.3,Constant=40}"/>
+            
+            <Image Source="p1rt.png" HeightRequest="110" WidthRequest="100"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Height,Factor=0.1,Constant=-60}"
+                RelativeLayout.XConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Width,Factor=0.5,Constant=160}"/>
+            
+            
+            <Image Source="p1mpic.png" x:Name="p1mpic" HeightRequest="300" WidthRequest="300"
+                   RelativeLayout.XConstraint ="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=1, Constant=180}"
+                   RelativeLayout.YConstraint ="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=1, Constant=150}"/>
+            <Image Source="p1rlogo.png" x:Name="p1rlogo" HeightRequest="80" WidthRequest="100"
+               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=X,Factor=1,Constant=490}"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Y,Factor=1,Constant=190}"/>
+
+        </RelativeLayout>
+    </ContentPage.Content>
+
+
+</ContentPage>

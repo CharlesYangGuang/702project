@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MapMyWorldPCL.View.Page7MyHome"
+              BackgroundColor="#F5F1E8">
+    <Grid RowSpacing="10" Margin="40">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Label Text="My Home" TextColor="#512769" FontSize="22" Grid.Row="0" Grid.Column="0"/>
+        <AbsoluteLayout>
+            <Image Source="p8rt" AbsoluteLayout.LayoutBounds="1,0.2,40,40" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        </AbsoluteLayout>
+        <StackLayout Grid.Row="1" Grid.Column="0" >
+            <Label Text="What type of home I live in?" TextColor="Black" FontSize="18"/>
+            <Label Text="(house, unit, share house, supported accommodation)" TextColor="Gray" FontSize="18"/>
+            <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+        <StackLayout Grid.Row="2" Grid.Column="0" >
+            <Label Text="The people I usually live with" TextColor="Black" FontSize="18"/>
+            <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+        <StackLayout Grid.Row="3" Grid.Column="0" >
+            <Label Text="Who helps me at home?" TextColor="Black" FontSize="18"/>
+            <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+        <StackLayout Grid.Row="4" Grid.Column="0" >
+            <Label Text="What do they help me with?" TextColor="Black" FontSize="18"/>
+            <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+        <StackLayout Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" >
+            <Label Text="The people I usually live with" TextColor="Black" FontSize="18"/>
+            <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+        <Image Source="p8mt.jpg" Aspect="AspectFill" Grid.Row="3" Grid.RowSpan="2" Grid.Column="1"/>
+    </Grid>
+</ContentPage>
