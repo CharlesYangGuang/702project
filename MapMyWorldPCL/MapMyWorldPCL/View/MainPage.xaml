@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:MapMyWorldPCL"
              x:Class="MapMyWorldPCL.View.MainPage"
              BackgroundColor="#F5F1E8">
-    <ContentPage.Padding>
+    <!--<ContentPage.Padding>
         <OnPlatform x:TypeArguments ="Thickness"
                     Android="20,20,20,20"/>
     </ContentPage.Padding>
@@ -32,6 +32,22 @@
                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Y,Factor=1,Constant=190}"/>
 
         </RelativeLayout>
+    </ContentPage.Content> -->
+    <ContentPage.Content>
+        <AbsoluteLayout Margin="20">
+            <Image Source="p1lt.png" AbsoluteLayout.LayoutBounds="0,0,0.3,100" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+            <Image Source="p1rt.png" AbsoluteLayout.LayoutBounds="1,0,0.3,100" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+            <StackLayout AbsoluteLayout.LayoutBounds="0.4,0.6,0.5,350" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" >
+                <Label Text="Mapping My World" TextColor="#512769" FontAttributes="Bold" FontSize="30" HorizontalOptions="Center"/>
+                <Label Text="My Journey, My Way" TextColor="#f0842c" FontSize="25" HorizontalOptions="Center"/>
+                <Label Text="Hello My Name is" BackgroundColor="#512769" TextColor="White" FontAttributes="Bold" FontSize="25" HorizontalOptions="Center"/>
+                <Entry Placeholder="Your Name" TextColor="Black" HorizontalOptions="Center" BackgroundColor="Silver"/>
+                <DatePicker HorizontalOptions="Center" BackgroundColor="Silver"/>
+            </StackLayout>
+            <Image Source="p1rlogo.png" AbsoluteLayout.LayoutBounds="1,0.4,0.3,120" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+            <Button Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+
+        </AbsoluteLayout>
     </ContentPage.Content>
 
 
