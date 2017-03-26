@@ -16,5 +16,6 @@ namespace MapMyWorldPCL.View
         {
             InitializeComponent();
         }
+        
     }
 }

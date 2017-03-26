@@ -62,7 +62,7 @@
         <Label Text="Frends and other important people " TextColor="#512769" FontSize="18" HorizontalOptions="Center"/>
             <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
     </StackLayout>
-        <Button Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+        <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="6" Grid.Column="4"/>
 
     </Grid>

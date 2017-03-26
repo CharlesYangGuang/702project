@@ -32,7 +32,7 @@
         <Label Text="How to best support me?" TextColor="Black" FontSize="17" Grid.Row="3" Grid.Column="1"/>
         <Editor Text="{Binding OtherLikeAbout}" BackgroundColor="Aqua" Grid.Row="4" Grid.Column="0"/>
         <Editor Text="{Binding HowSupport}" BackgroundColor="Aqua" Grid.Row="4" Grid.Column="1"/>
-        <Button Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+        <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="5" Grid.Column="1"/>
 
     </Grid>

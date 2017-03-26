@@ -44,7 +44,7 @@
             <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
         </StackLayout>
         <Image Source="p8mt.jpg" Aspect="AspectFill" Grid.Row="3" Grid.RowSpan="2" Grid.Column="1"/>
-        <Button Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+        <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="5" Grid.Column="1"/>
 
     </Grid>

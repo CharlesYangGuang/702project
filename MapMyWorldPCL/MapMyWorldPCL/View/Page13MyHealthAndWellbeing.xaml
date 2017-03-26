@@ -26,7 +26,7 @@
             <Label Text="[Example: I'd like to reduce my weight by joining an exercise class. I need to find a suitable class and someone to take me]" 
                TextColor="Gray" FontSize="13"/>
             <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
-            <Button Text="Next Page" AbsoluteLayout.LayoutBounds="0,0,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+            <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="0,0,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
 
         </StackLayout>
     </ContentPage.Content>

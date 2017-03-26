@@ -45,7 +45,7 @@
         <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="1"/>
         <Entry Text="Other" TextColor="Black" FontSize="12" BackgroundColor="Silver" Grid.Row="7" Grid.Column="0"/>
         <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="1"/>
-        <Button Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+        <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="8" Grid.Column="1"/>
 
     </Grid>

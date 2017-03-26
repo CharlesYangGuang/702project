@@ -23,6 +23,9 @@ namespace MapMyWorldPCL.View
             base.OnAppearing();
         }
 
-
+        async void OnSaveAndNext(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page5TheWay());
+        }
     }
 }

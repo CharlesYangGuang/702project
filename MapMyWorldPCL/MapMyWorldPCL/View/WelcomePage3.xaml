@@ -39,7 +39,7 @@
 
             <Image Source="book.png" AbsoluteLayout.LayoutBounds="1,1,0.5,0.7" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional"/>
             <!--<Image Source="p3b" Aspect="AspectFill" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>-->
-                <Button Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+            <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
             </AbsoluteLayout>
 
         

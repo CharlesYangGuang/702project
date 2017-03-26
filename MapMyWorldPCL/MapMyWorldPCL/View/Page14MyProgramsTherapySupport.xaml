@@ -70,7 +70,7 @@
         <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="1"/>
         <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="2"/>
         <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="3"/>
-        <Button Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+        <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="8" Grid.Column="3"/>
 
 
