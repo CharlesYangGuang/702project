@@ -14,6 +14,8 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -59,5 +61,8 @@
             <Label Text="Are there any equipment, aid or modification supports you would like but don't currently have?"/>
             <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
         </StackLayout>
+        <Button Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+                Grid.Row="8" Grid.Column="3"/>
+
     </Grid>
 </ContentPage>

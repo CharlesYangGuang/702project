@@ -15,6 +15,8 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="auto"/>
@@ -49,5 +51,8 @@
         <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="8" Grid.Column="1"/>
         <Entry Text="Transport" TextColor="Black" FontSize="12" BackgroundColor="Silver" Grid.Row="9" Grid.Column="0"/>
         <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="9" Grid.Column="1"/>
+        <Button Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+                Grid.Row="10" Grid.Column="1"/>
+
     </Grid>
 </ContentPage>

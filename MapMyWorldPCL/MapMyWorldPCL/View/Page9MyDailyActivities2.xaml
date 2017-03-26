@@ -15,7 +15,9 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+
+        </Grid.ColumnDefinitions>
 
             <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
             <Label Text="My daily activities" TextColor="#512769" FontSize="22"/>
@@ -76,5 +78,8 @@
         <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1"/>
         <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="2"/>
         <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="3"/>
+        <Button Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+                Grid.Row="4" Grid.Column="4"/>
+
     </Grid>
     </ContentPage>

@@ -9,6 +9,8 @@
             <RowDefinition Height="2*"/>
             <RowDefinition Height="2*"/>
             <RowDefinition Height="2*"/>
+            <RowDefinition Height="auto"/>
+
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="auto"/>
@@ -72,5 +74,7 @@
             <Label Text="Things I like but haven't done for a while" TextColor="Gray" FontSize="17"/>
             <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
         </StackLayout>
+        <Button Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+                Grid.Row="4" Grid.Column="3"/>
     </Grid>
 </ContentPage>
