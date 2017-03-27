@@ -15,7 +15,7 @@ namespace MapMyWorldPCL
         {
             InitializeComponent();
 
-            MainPage = new MapMyWorldPCL.View.MainPage();
+            MainPage = new NavigationPage(new View.MainPage());
         }
 
         public static dbForm Database
