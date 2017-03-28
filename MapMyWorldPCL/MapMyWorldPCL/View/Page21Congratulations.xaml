@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MapMyWorldPCL.View.Page21Congratulations"
+             BackgroundColor="#F5F1E8">
+    <AbsoluteLayout Margin="30">
+        <Label Text="Congratulations!" TextColor="#512769" FontAttributes="Bold" FontSize="22"/>
+        <StackLayout AbsoluteLayout.LayoutBounds="0.2,0.3,0.7,0.7" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional">
+            <Label FontSize="17" Text="You have now mapped out your world in preparation for your National Disability Insurance Scheme (NDIS) planning meeting. "/>
+            <Label Text="Here are you next steps:" FontAttributes="Bold"/>
+            <Label Text="1.  A representative of the National Disability Insurance Agency will be in touch with you to arrange a meeting when the NDIS is being rolled out in your area. They can also be contacted on 1800 800 110. "/>
+            <Label Text="2.  Call Endeavour Foundation on 1800 112 112 if you have any questions about this booklet. You can also visit our NDIS-specific website with all the up to date information: www.ndis.endeavour.com.au   "/>
+            <Label Text="3.  You can bring someone with you, like a family member or friend, to support you in your NDIS planning meeting. You are also able to request a support person from Endeavour Foundation to attend if you would like them to."/>
+        </StackLayout>
+        <Button Clicked="OnSaveAndNext" Text="Bact to  MainPage" AbsoluteLayout.LayoutBounds="1,1,0.3,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+    </AbsoluteLayout>
+</ContentPage>

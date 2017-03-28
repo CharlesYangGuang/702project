@@ -10,15 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace MapMyWorldPCL.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page16MyDreamGoals : ContentPage
+    public partial class Page17MyWeek : ContentPage
     {
-        public Page16MyDreamGoals()
+        public Page17MyWeek()
         {
             InitializeComponent();
         }
         async void OnSaveAndNext(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Page17MyWeek());
+            await Navigation.PushAsync(new Page18ShortTerm());
         }
     }
 }

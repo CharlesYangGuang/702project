@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MapMyWorldPCL.View.Page19LongTerm"
+             BackgroundColor="#F5F1E8">
+    <StackLayout Margin="30">
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="My long term dreams and goals:" FontSize="22" ForegroundColor="#512769"/>
+                    <Span Text="the future" FontSize="22"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <BoxView BackgroundColor="#F5F1E8" HeightRequest="10"/>
+        <Label Text="Think about: daily living, home, relationships, health and wellbeing, lifelong learning, work, social and community, and choice and control."/>
+        <BoxView BackgroundColor="#F5F1E8" HeightRequest="10"/>
+        <Label Text="What would you like to achieve in the next five years?"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+        <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+
+    </StackLayout>
+</ContentPage>

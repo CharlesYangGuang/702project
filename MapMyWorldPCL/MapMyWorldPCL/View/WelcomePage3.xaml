@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MapMyWorldPCL.View.WelcomePage3"
              BackgroundColor="#F5F1E8">
-    <!--<ContentPage.Padding>
+    <ContentPage.Padding>
         <OnPlatform x:TypeArguments ="Thickness"
                     Android="20,20,20,20"/>
-    </ContentPage.Padding>-->
+    </ContentPage.Padding>
     <ContentPage.Content>
         <!--<RelativeLayout>
             <Image Source="p3b" Aspect="AspectFill"
@@ -17,7 +17,7 @@
         </RelativeLayout>-->
 
 
-        <AbsoluteLayout>
+        <AbsoluteLayout Margin="30">
             <Label>
                 <Label.FormattedText>
                     <FormattedString>
@@ -27,7 +27,7 @@
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
-            <StackLayout AbsoluteLayout.LayoutBounds="0,1,0.5,0.7" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional">
+            <StackLayout AbsoluteLayout.LayoutBounds="0,1,0.6,0.7" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional">
             <Label Text="What is this booklet for?" TextColor="#512769" FontSize="15" FontAttributes="Bold"/>
                 <Label TextColor="Black" FontSize="13" Text="This booklet has been designed to put you at the centre of decisions about your life in the NDIS planning process. It helps you prepare for your NDIS planning meeting.  It is designed to help you think about how you'd like to live  your life – now and in the future."/>
                 <Label Text="Why do I need this booklet?" TextColor="#512769" FontSize="15" FontAttributes="Bold"/>
@@ -37,7 +37,7 @@
                 <Label TextColor="Black" FontSize="13" Text="If you would like to ask any questions about this booklet,  you can contact our helpline on 1800 112 112."/>
             </StackLayout>
 
-            <Image Source="book.png" AbsoluteLayout.LayoutBounds="1,1,0.5,0.7" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional"/>
+            <Image Source="book.png" AbsoluteLayout.LayoutBounds="1,1,0.5,0.5" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional"/>
             <!--<Image Source="p3b" Aspect="AspectFill" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>-->
             <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
             </AbsoluteLayout>

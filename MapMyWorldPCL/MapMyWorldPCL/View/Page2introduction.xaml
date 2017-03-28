@@ -18,10 +18,10 @@
                    RelativeLayout.WidthConstraint ="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.6, Constant=100}"
                    RelativeLayout.HeightConstraint ="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1, Constant=0}"/>
         </RelativeLayout> -->
-        <AbsoluteLayout Margin="0">
+        <AbsoluteLayout Margin="30">
             <Label Text="This booklet has been developed by Endeavour Foundation and includes a combination of the best available tools for person-centred practice in the 21st Century, including those by Helen Sanderson Associates (2015) and The Learning Community for Person Centred Practice (2015). The booklet also considers the Disability Creation Process which resembles the International Classification of Function, Disability and Health developed by the World Health Organisation and refers to the definition of disability according to the United Nations Convention on the Rights Of Persons with Disabilities (Handicap International, 2015)"
-                   TextColor="Black" FontSize="15" AbsoluteLayout.LayoutBounds="0,0,600,400" AbsoluteLayout.LayoutFlags="PositionProportional"/>
-            <StackLayout AbsoluteLayout.LayoutBounds="0,1,600,200" AbsoluteLayout.LayoutFlags="PositionProportional">
+                   TextColor="Black" FontSize="15" AbsoluteLayout.LayoutBounds="0,0.4,1,0.5" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional"/>
+            <StackLayout AbsoluteLayout.LayoutBounds="0,1,1,0.3" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional">
                 <Label Text="Reference:" TextColor="Black" FontSize="15" FontAttributes="Bold"/>
                 <Label Text="1.  Thompson, J.S., Kilbane, J., and Sanderson, H. (2007). Person Centred Practice for Professionals Retrieved from http://UQL.eblib.com.au/patron/Full Record.aspx?p=332732 " 
                        TextColor="Black" FontSize="12"/>

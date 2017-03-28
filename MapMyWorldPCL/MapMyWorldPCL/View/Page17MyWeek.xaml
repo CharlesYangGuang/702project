@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MapMyWorldPCL.View.Page17MyWeek"
+             BackgroundColor="#F5F1E8">
+    <Grid Margin="30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
+            <Label Text="How I wish my week looked" TextColor="#512769" FontAttributes="Bold" FontSize="22"/>
+            <BoxView BackgroundColor="#F5F1E8" HeightRequest="20"/>
+            <Label Text=" what you wrote was working well and what could work better in the previous questions, what would your ideal week look like? Don't forget to include work, education, hobbies and relationships, if they are relevant to you."
+                   />
+        </StackLayout>
+        <!--<Image Source="p20rt.png" AbsoluteLayout.LayoutBounds="1,0,10,10" AbsoluteLayout.LayoutFlags="PositionProportional" Grid.Row="0" Grid.Column="3"/>-->
+        <Label Text="Morning" Grid.Row="1" Grid.Column="1"/>
+        <Label Text="Morning" Grid.Row="1" Grid.Column="2"/>
+        <Label Text="Morning" Grid.Row="1" Grid.Column="3"/>
+        <Label Text="Monday" TextColor="#512769" Grid.Row="2" Grid.Column="0"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="2"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="3"/>
+        <Label Text="Tuesday" TextColor="#512769" Grid.Row="3" Grid.Column="0"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="2"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="3"/>
+        <Label Text="Wednesday" TextColor="#512769" Grid.Row="4" Grid.Column="0"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="2"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="3"/>
+        <Label Text="Thursday" TextColor="#512769" Grid.Row="5" Grid.Column="0"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="1"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="2"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="3"/>
+        <Label Text="Friday" TextColor="#512769" Grid.Row="6" Grid.Column="0"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="1"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="2"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="3"/>
+        <Label Text="Saturday" TextColor="#512769" Grid.Row="7" Grid.Column="0"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="1"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="2"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="3"/>
+        <Label Text="Monday" TextColor="#512769" Grid.Row="8" Grid.Column="0"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="8" Grid.Column="1"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="8" Grid.Column="2"/>
+        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="8" Grid.Column="3"/>
+        <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" 
+                AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+                Grid.Row="9" Grid.Column="3"/>
+    </Grid>
+
+</ContentPage>

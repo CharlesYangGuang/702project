@@ -72,6 +72,21 @@
     <Compile Include="View\Page16MyDreamGoals.xaml.cs">
       <DependentUpon>Page16MyDreamGoals.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Page17MyWeek.xaml.cs">
+      <DependentUpon>Page17MyWeek.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Page18ShortTerm.xaml.cs">
+      <DependentUpon>Page18ShortTerm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Page19LongTerm.xaml.cs">
+      <DependentUpon>Page19LongTerm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Page20BucketList.xaml.cs">
+      <DependentUpon>Page20BucketList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Page21Congratulations.xaml.cs">
+      <DependentUpon>Page21Congratulations.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Page4Who.xaml.cs">
       <DependentUpon>Page4Who.xaml</DependentUpon>
     </Compile>
@@ -235,6 +250,36 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="View\Page16MyDreamGoals.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\Page17MyWeek.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\Page18ShortTerm.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\Page19LongTerm.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\Page20BucketList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\Page21Congratulations.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
