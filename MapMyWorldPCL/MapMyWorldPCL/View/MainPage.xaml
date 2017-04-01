@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MapMyWorldPCL"
              x:Class="MapMyWorldPCL.View.MainPage"
-             BackgroundColor="#F5F1E8">
+             BackgroundColor="#F5F1E8"
+             NavigationPage.HasNavigationBar="False">
     <!--<ContentPage.Padding>
         <OnPlatform x:TypeArguments ="Thickness"
                     Android="20,20,20,20"/>

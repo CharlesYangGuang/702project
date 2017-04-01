@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MapMyWorldPCL.View.Page9MyDailyActivities2"
-             BackgroundColor="#F5F1E8">
+             BackgroundColor="#F5F1E8"
+             NavigationPage.HasNavigationBar="False">
         <Grid RowSpacing="10" Margin="40">
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>

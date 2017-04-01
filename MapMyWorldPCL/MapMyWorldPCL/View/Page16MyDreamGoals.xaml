@@ -2,9 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MapMyWorldPCL.View.Page16MyDreamGoals"
-             BackgroundColor="#F5F1E8">
-   
-    
+             BackgroundColor="#F5F1E8"
+             NavigationPage.HasNavigationBar="False">
         <AbsoluteLayout Margin="30">
         <Image Source="bubble.png" AbsoluteLayout.LayoutBounds="0.8,1,0.6,0.7" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional"
             BackgroundColor="#F5F1E8"/>
