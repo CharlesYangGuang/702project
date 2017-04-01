@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MapMyWorldPCL.View.MenuPage"
+             xmlns:local="clr-namespace:MapMyWorldPCL;assembly=MapMyWorldPCL">
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10,30" Title="Menu" Icon="menu.png" BackgroundColor="#F5F1E8">
+            <ContentPage.Content>
+                <StackLayout Orientation="Vertical" Margin="5,0,5,5">
+                    <Label Text="Content" TextColor="#512769" FontAttributes="Bold" FontSize="30"/>
+                    <Button Text="Main page" Clicked="Button_Clicked"/>
+                    <Button Text="1 who I am" Clicked="Button_Clicked_1"/>
+                    <Button Text="2 The ways I communicate and make decisions" Clicked="Button_Clicked_2"/>
+                    <Button Text="3 Improtant people to me" Clicked="Button_Clicked_3"/>
+                    <Button Text="4 My home" Clicked="Button_Clicked_4"/>
+                    <Button Text="5 My daily activities" Clicked="Button_Clicked_5"/>
+                    <Button Text="6 My weekly supports" Clicked="Button_Clicked_6"/>
+                    <Button Text="7 My health and wellbeing" Clicked="Button_Clicked_7"/>
+                    <Button Text="8 My program and therapy supports" Clicked="Button_Clicked_8"/>
+                    <Button Text="9 My equipment, aid or modification support" Clicked="Button_Clicked_9"/>
+                    <Button Text="10 How I wish my week looked" Clicked="Button_Clicked_10"/>
+                    <Button Text="11 My short term dreams and goals: next 12 months" Clicked="Button_Clicked_11"/>
+                    <Button Text="12 My long term dreams and goals: the future" Clicked="Button_Clicked_12"/>
+                    <Button Text="13 My ultimate bucket list" Clicked="Button_Clicked_13"/>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

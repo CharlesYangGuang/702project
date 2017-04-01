@@ -3,12 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MapMyWorldPCL.View.WelcomePage3"
              BackgroundColor="#F5F1E8">
-    <ContentPage.Padding>
+    <!--<ContentPage.Padding>
         <OnPlatform x:TypeArguments ="Thickness"
                     Android="20,20,20,20"/>
     </ContentPage.Padding>
     <ContentPage.Content>
-        <!--<RelativeLayout>
+        <RelativeLayout>
             <Image Source="p3b" Aspect="AspectFill"
                    RelativeLayout.XConstraint ="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=1, Constant=0}"
                    RelativeLayout.YConstraint ="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=1, Constant=0}"
@@ -16,7 +16,7 @@
                    RelativeLayout.HeightConstraint ="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.6, Constant=0}"/> 
         </RelativeLayout>-->
 
-
+    <ContentPage.Content>
         <AbsoluteLayout Margin="30">
             <Label>
                 <Label.FormattedText>

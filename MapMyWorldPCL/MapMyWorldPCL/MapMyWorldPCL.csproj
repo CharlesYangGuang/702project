@@ -45,6 +45,9 @@
     <Compile Include="View\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\MenuPage.xaml.cs">
+      <DependentUpon>MenuPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Page10MyDailyActivities3.xaml.cs">
       <DependentUpon>Page10MyDailyActivities3.xaml</DependentUpon>
     </Compile>
@@ -280,6 +283,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="View\Page21Congratulations.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\MenuPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
