@@ -6,7 +6,7 @@
     <MasterDetailPage.Master>
         <ContentPage Padding="10,30" Title="Menu" Icon="menu.png" BackgroundColor="#F5F1E8">
             <ContentPage.Content>
-                <StackLayout Orientation="Vertical" Margin="5,0,5,5">
+                <StackLayout Orientation="Vertical" Margin="5,0,5,5" HorizontalOptions="Start">
                     <Label Text="Content" TextColor="#512769" FontAttributes="Bold" FontSize="30"/>
                     <Button Text="Main page" Clicked="Button_Clicked"/>
                     <Button Text="1 who I am" Clicked="Button_Clicked_1"/>

@@ -27,5 +27,10 @@ namespace MapMyWorldPCL.View
         {
             await Navigation.PushAsync(new Page5TheWay());
         }
+
+        async void Button_Back(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
     }
 }

@@ -19,6 +19,7 @@
         <Label Text="What would you like to achieve in the next five years?"/>
         <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
         <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
-
+        <Button Clicked="Button_Back" Text="Back" 
+                AbsoluteLayout.LayoutBounds="1,0,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"/>
     </StackLayout>
 </ContentPage>

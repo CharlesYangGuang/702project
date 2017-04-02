@@ -20,5 +20,9 @@ namespace MapMyWorldPCL.View
         {
             await Navigation.PushAsync(new Page21Congratulations());
         }
+        async void Button_Back(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page19LongTerm());
+        }
     }
 }

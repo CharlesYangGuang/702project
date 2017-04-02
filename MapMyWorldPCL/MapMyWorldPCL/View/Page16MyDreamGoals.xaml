@@ -13,8 +13,10 @@
             <Label Text=" In this section you'll think about what your ideal week would look like, and what you'd like your home life, your work, your education, and your independence to be like."
                    TextColor="Black" FontSize="18" VerticalOptions="FillAndExpand"/>
         </StackLayout>
-        <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
-
+        <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" 
+                AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+        <Button Clicked="Button_Back" Text="Back"
+                AbsoluteLayout.LayoutBounds="0,1,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"/>
     </AbsoluteLayout>
 
 </ContentPage>

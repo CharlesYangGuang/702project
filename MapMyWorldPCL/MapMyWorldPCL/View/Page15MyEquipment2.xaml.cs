@@ -21,5 +21,9 @@ namespace MapMyWorldPCL.View
         {
             await Navigation.PushAsync(new Page16MyDreamGoals());
         }
+        async void Button_Back(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page15MyEquipment());
+        }
     }
 }

@@ -21,7 +21,7 @@ namespace MapMyWorldPCL.View
 
         async void OnSaveAndNext(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Page2introduction());
+            await Navigation.PushAsync(new Page4Who());
         }
     }
 }
