@@ -34,33 +34,38 @@
         <Label Text="When" TextColor="#512769" FontAttributes="Bold" FontSize="15" Grid.Row="1" Grid.Column="2"/>
         <Label Text="How Often" TextColor="#512769" FontAttributes="Bold" FontSize="15" Grid.Row="1" Grid.Column="3"/>
 
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="2"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="3"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="2"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="3"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="2"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="3"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="2"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="3"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="2"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="3"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="2"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="3"/>
+        <Editor Text="{Binding What1}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="0"/>
+        <Editor Text="{Binding For1}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
+        <Editor Text="{Binding When1}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="2"/>
+        <Editor Text="{Binding HowOften1}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="3"/>
+        
+        <Editor Text="{Binding What2}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="0"/>
+        <Editor Text="{Binding For2}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1"/>
+        <Editor Text="{Binding When2}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="2"/>
+        <Editor Text="{Binding HowOften2}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="3"/>
+        
+        <Editor Text="{Binding What3}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="0"/>
+        <Editor Text="{Binding For3}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1"/>
+        <Editor Text="{Binding When3}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="2"/>
+        <Editor Text="{Binding HowOften3}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="3"/>
+        
+        <Editor Text="{Binding What4}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="0"/>
+        <Editor Text="{Binding For4}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="1"/>
+        <Editor Text="{Binding When4}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="2"/>
+        <Editor Text="{Binding HowOften4}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="3"/>
+        
+        <Editor Text="{Binding What5}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="0"/>
+        <Editor Text="{Binding For5}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="1"/>
+        <Editor Text="{Binding When5}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="2"/>
+        <Editor Text="{Binding HowOften5}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="3"/>
+        
+        <Editor Text="{Binding What6}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="0"/>
+        <Editor Text="{Binding For6}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="1"/>
+        <Editor Text="{Binding When6}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="2"/>
+        <Editor Text="{Binding HowOften6}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="3"/>
         <StackLayout Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="4">
             <Label Text="Are there any equipment, aid or modification supports you would like but don't currently have?"/>
-            <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+            <Editor Text="{Binding EquipmentNotHave}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
         </StackLayout>
         <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="9" Grid.Column="3"/>

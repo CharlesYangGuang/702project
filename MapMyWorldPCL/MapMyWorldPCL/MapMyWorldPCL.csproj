@@ -41,6 +41,16 @@
     <Compile Include="Data\dbForm.cs" />
     <Compile Include="IFiileHelper.cs" />
     <Compile Include="Models\form10DailyA3.cs" />
+    <Compile Include="Models\form11WeeklySupport1.cs" />
+    <Compile Include="Models\form13HealthWellbeing.cs" />
+    <Compile Include="Models\form14MyProgram1.cs" />
+    <Compile Include="Models\form14MyProgram2.cs" />
+    <Compile Include="Models\form15Equipment1.cs" />
+    <Compile Include="Models\form15Equipment2.cs" />
+    <Compile Include="Models\form17MyWeekLooked.cs" />
+    <Compile Include="Models\form18ShortDream.cs" />
+    <Compile Include="Models\form19LongDream.cs" />
+    <Compile Include="Models\form20BucketList.cs" />
     <Compile Include="Models\form4Who.cs" />
     <Compile Include="Models\form5TheWay.cs" />
     <Compile Include="Models\form6Important.cs" />
@@ -48,6 +58,7 @@
     <Compile Include="Models\form8DailyA1.cs" />
     <Compile Include="Models\form9DailyA2.cs" />
     <Compile Include="Models\formMainPage.cs" />
+    <Compile Include="Models\form12WeeklySupport2.cs" />
     <Compile Include="View\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>

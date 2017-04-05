@@ -30,36 +30,38 @@
         </StackLayout>
         <!--<Image Source="p20rt.png" AbsoluteLayout.LayoutBounds="1,0,10,10" AbsoluteLayout.LayoutFlags="PositionProportional" Grid.Row="0" Grid.Column="3"/>-->
         <Label Text="Morning" Grid.Row="1" Grid.Column="1"/>
-        <Label Text="Morning" Grid.Row="1" Grid.Column="2"/>
-        <Label Text="Morning" Grid.Row="1" Grid.Column="3"/>
+        <Label Text="Afternoon" Grid.Row="1" Grid.Column="2"/>
+        <Label Text="Evening" Grid.Row="1" Grid.Column="3"/>
         <Label Text="Monday" TextColor="#512769" Grid.Row="2" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="2"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="3"/>
+        <Editor Text="{Binding Morning1}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
+        <Editor Text="{Binding Afternoon1}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="2"/>
+        <Editor Text="{Binding Evening1}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="3"/>
+        
         <Label Text="Tuesday" TextColor="#512769" Grid.Row="3" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="2"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="3"/>
+        <Editor Text="{Binding Morning2}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1"/>
+        <Editor Text="{Binding Afternoon2}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="2"/>
+        <Editor Text="{Binding Evening2}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="3"/>
+        
         <Label Text="Wednesday" TextColor="#512769" Grid.Row="4" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="2"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="3"/>
+        <Editor Text="{Binding Morning3}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1"/>
+        <Editor Text="{Binding Afternoon3}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="2"/>
+        <Editor Text="{Binding Evening3}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="3"/>
         <Label Text="Thursday" TextColor="#512769" Grid.Row="5" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="2"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="3"/>
+        <Editor Text="{Binding Morning4}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="1"/>
+        <Editor Text="{Binding Afternoon4}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="2"/>
+        <Editor Text="{Binding Evening4}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="3"/>
         <Label Text="Friday" TextColor="#512769" Grid.Row="6" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="2"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="3"/>
+        <Editor Text="{Binding Morning5}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="1"/>
+        <Editor Text="{Binding Afternoon5}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="2"/>
+        <Editor Text="{Binding Evening5}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="3"/>
         <Label Text="Saturday" TextColor="#512769" Grid.Row="7" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="2"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="3"/>
+        <Editor Text="{Binding Morning6}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="1"/>
+        <Editor Text="{Binding Afternoon6}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="2"/>
+        <Editor Text="{Binding Evening6}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="3"/>
         <Label Text="Monday" TextColor="#512769" Grid.Row="8" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="8" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="8" Grid.Column="2"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="8" Grid.Column="3"/>
+        <Editor Text="{Binding Morning7}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="8" Grid.Column="1"/>
+        <Editor Text="{Binding Afternoon7}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="8" Grid.Column="2"/>
+        <Editor Text="{Binding Evening7}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="8" Grid.Column="3"/>
         <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" 
                 AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="9" Grid.Column="3"/>

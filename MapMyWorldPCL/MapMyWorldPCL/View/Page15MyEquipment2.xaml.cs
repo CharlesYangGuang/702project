@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using MapMyWorldPCL.Models;
 
 namespace MapMyWorldPCL.View
 {
@@ -14,6 +15,7 @@ namespace MapMyWorldPCL.View
     {
         public Page15MyEquipment2()
         {
+            BindingContext = new form15Equipment2();
             InitializeComponent();
         }
 
