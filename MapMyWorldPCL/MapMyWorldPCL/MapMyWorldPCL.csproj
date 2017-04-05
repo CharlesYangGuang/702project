@@ -40,7 +40,13 @@
     </Compile>
     <Compile Include="Data\dbForm.cs" />
     <Compile Include="IFiileHelper.cs" />
+    <Compile Include="Models\form10DailyA3.cs" />
     <Compile Include="Models\form4Who.cs" />
+    <Compile Include="Models\form5TheWay.cs" />
+    <Compile Include="Models\form6Important.cs" />
+    <Compile Include="Models\form7MyHome.cs" />
+    <Compile Include="Models\form8DailyA1.cs" />
+    <Compile Include="Models\form9DailyA2.cs" />
     <Compile Include="Models\formMainPage.cs" />
     <Compile Include="View\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>

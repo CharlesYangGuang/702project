@@ -39,15 +39,15 @@
 
             <StackLayout Grid.Row="1" Grid.Column="1">
                 <Label Text="What I do now:" TextColor="#512769" FontSize="18"/>
-                <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+            <Editor Text="{Binding WhatIW}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
             </StackLayout>
             <StackLayout Grid.Row="1" Grid.Column="2">
                 <Label Text="What is working well:" TextColor="#512769" FontSize="18"/>
-                <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+            <Editor Text="{Binding WhatIsW}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
             </StackLayout>
             <StackLayout Grid.Row="1" Grid.Column="3">
                 <Label Text="What is not working well:" TextColor="#512769" FontSize="18"/>
-                <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+            <Editor Text="{Binding WhatIsNotW}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
             </StackLayout>
             <StackLayout Grid.Row="2" Grid.Column="0">
                 <Label Text="Thursday" TextColor="#512769" FontSize="18" VerticalOptions="Start"/>
@@ -61,9 +61,9 @@
 
                 <Label Text="Evening" TextColor="Black" FontSize="18" VerticalOptions="End"/>
             </StackLayout>
-            <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
-            <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="2"/>
-            <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="3"/>
+        <Editor Text="{Binding WhatITh}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
+        <Editor Text="{Binding WhatIsTh}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="2"/>
+        <Editor Text="{Binding WhatIsNotTh}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="3"/>
         <StackLayout Grid.Row="3" Grid.Column="0">
             <Label Text="Friday" TextColor="#512769" FontSize="18" VerticalOptions="Start"/>
             <BoxView BackgroundColor="#F5F1E8" HeightRequest="10"/>
@@ -76,9 +76,9 @@
 
             <Label Text="Evening" TextColor="Black" FontSize="18" VerticalOptions="End"/>
         </StackLayout>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="2"/>
-        <Editor BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="3"/>
+        <Editor Text="{Binding WhatIF}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1"/>
+        <Editor Text="{Binding WhatIsF}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="2"/>
+        <Editor Text="{Binding WhatIsNotF}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="3"/>
         <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="4" Grid.Column="4"/>
         <Button Clicked="Button_Back" Text="Back" AbsoluteLayout.LayoutBounds="1,0,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"

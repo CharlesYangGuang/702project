@@ -29,15 +29,15 @@
         </StackLayout>
         <Label Text="Who I want to help me in my NDIS planning meetin" TextColor="Black" FontSize="18"
                Grid.Row="1" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" Grid.Row="2" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" Grid.Row="2" Grid.Column="1"/>
+        <Editor Text="{Binding BeInvolved}" BackgroundColor="Aqua" Grid.Row="2" Grid.Column="0"/>
+        <Editor Text="{Binding NDISMeeting}" BackgroundColor="Aqua" Grid.Row="2" Grid.Column="1"/>
         <StackLayout Grid.Row="3" Grid.Column="0">
             <Label Text="What my NDIS representative needs to know about" TextColor="Black" FontSize="22"/>
             <Label Text="How I communicate:" TextColor="Black" FontSize="18" VerticalOptions="Center"/>
         </StackLayout>
         <Label Text="Who makes the final decisions?" TextColor="Black" FontSize="18" Grid.Row="3" Grid.Column="1"/>
-        <Editor BackgroundColor="Aqua" Grid.Row="4" Grid.Column="0"/>
-        <Editor BackgroundColor="Aqua" Grid.Row="4" Grid.Column="1"/>
+        <Editor Text="{Binding HowCommunicate}" BackgroundColor="Aqua" Grid.Row="4" Grid.Column="0"/>
+        <Editor Text="{Binding FinalDecision}" BackgroundColor="Aqua" Grid.Row="4" Grid.Column="1"/>
         <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="5" Grid.Column="1"/>
         <Button Clicked="Button_Back" Text="Back" AbsoluteLayout.LayoutBounds="1,0,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"
