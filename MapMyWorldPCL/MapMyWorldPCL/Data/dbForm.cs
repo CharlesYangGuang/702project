@@ -32,7 +32,7 @@ namespace MapMyWorldPCL.Data
 
         public Task<formMainPage> GetMainPage(int id = 0)
         {
-            return database.Table<formMainPage>().FirstOrDefaultAsync();
+            return database.Table<formMainPage>().Where(x => x.ID == id).FirstOrDefaultAsync();
         }
     }
 }
