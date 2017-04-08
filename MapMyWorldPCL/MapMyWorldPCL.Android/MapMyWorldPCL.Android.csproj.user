@@ -3,5 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>test1</SelectedDevice>
     <DefaultDevice>test1</DefaultDevice>
+    <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
 </Project>

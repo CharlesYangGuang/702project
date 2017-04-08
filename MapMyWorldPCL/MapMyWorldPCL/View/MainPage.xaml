@@ -42,8 +42,8 @@
                 <Label Text="Mapping My World" TextColor="#512769" FontAttributes="Bold" FontSize="30" HorizontalOptions="Center"/>
                 <Label Text="My Journey, My Way" TextColor="#f0842c" FontSize="25" HorizontalOptions="Center"/>
                 <Label Text="Hello My Name is" BackgroundColor="#512769" TextColor="White" FontAttributes="Bold" FontSize="25" HorizontalOptions="Center"/>
-                <Entry Placeholder="Your Name" TextColor="Black" HorizontalOptions="Center" BackgroundColor="Silver"/>
-                <DatePicker HorizontalOptions="Center" BackgroundColor="Silver"/>
+                <Entry Text="{Binding Name}" Placeholder="Your Name" TextColor="Black" HorizontalOptions="Center" BackgroundColor="Silver"/>
+                <DatePicker Date="{Binding Date}"  HorizontalOptions="Center" BackgroundColor="Silver"/>
             </StackLayout>
             <Image Source="p1rlogo.png" AbsoluteLayout.LayoutBounds="1,0.4,0.3,120" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
             <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>

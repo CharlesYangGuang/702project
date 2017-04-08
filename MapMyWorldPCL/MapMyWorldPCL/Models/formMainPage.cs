@@ -7,12 +7,12 @@ using SQLite;
 
 namespace MapMyWorldPCL.Models
 {
-    class formMainPage
+    public class formMainPage
     {
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
 
         public string Name { get; set; }
-        public DateTime Date { get; set; }
+        public DateTime Date { get; set; } = DateTime.Today;
     }
 }

@@ -11,16 +11,20 @@ namespace MapMyWorldPCL.View
     {
         public MainPage()
         {
+            BindingContext = new Models.formMainPage();
             InitializeComponent();
         }
 
         protected override async void OnAppearing()
         {
             base.OnAppearing();
+            //BindingContext = await App.Database.GetMainPage();
         }
 
         async void OnSaveAndNext(object sender, EventArgs e)
         {
+            var info = (Models.formMainPage)BindingContext;
+            await App.Database.SaveMainPage(info);
             await Navigation.PushAsync(new Page4Who());
         }
     }

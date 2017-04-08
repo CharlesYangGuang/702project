@@ -15,6 +15,7 @@ namespace MapMyWorldPCL.View
         public MenuPage()
         {
             InitializeComponent();
+            MasterBehavior = MasterBehavior.Popover;
             Detail = new NavigationPage(new MainPage());
 
         }

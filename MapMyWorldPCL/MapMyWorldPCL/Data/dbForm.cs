@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MapMyWorldPCL.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,24 @@ namespace MapMyWorldPCL.Data
         public dbForm(string dbPath)
         {
             database = new SQLiteAsyncConnection(dbPath);
-            //database.CreateTableAsync<Models.FormInfo>().Wait();
+            database.CreateTableAsync<formMainPage>().Wait();
+        }
+
+        public Task<int> SaveMainPage(formMainPage info)
+        {
+            if (info.ID != 0)
+            {
+                return database.UpdateAsync(info);
+            }
+            else
+            {
+                return database.InsertAsync(info);
+            }
+        }
+
+        public Task<formMainPage> GetMainPage(int id = 0)
+        {
+            return database.Table<formMainPage>().FirstOrDefaultAsync();
         }
     }
 }
