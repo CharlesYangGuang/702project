@@ -4,6 +4,7 @@
              x:Class="MapMyWorldPCL.View.Page10MyDailyActivities3"
              BackgroundColor="#F5F1E8"
              NavigationPage.HasNavigationBar="False">
+    <ScrollView>
     <Grid RowSpacing="10" Margin="40">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -80,4 +81,5 @@
         <Button Clicked="Button_Back" Text="Back" AbsoluteLayout.LayoutBounds="1,0,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"
                 Grid.Row="4" Grid.Column="0"/>
     </Grid>
+    </ScrollView>
 </ContentPage>
