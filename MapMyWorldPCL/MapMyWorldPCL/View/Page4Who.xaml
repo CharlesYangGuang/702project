@@ -5,8 +5,8 @@
              BackgroundColor="#F5F1E8"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <ScrollView>
-            <Grid RowSpacing="10" Margin="20">
+        
+            <Grid RowSpacing="5" Margin="20">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
@@ -36,12 +36,12 @@
                 <Label Text="How to best support me?" TextColor="Black" FontSize="17" Grid.Row="3" Grid.Column="1"/>
                 <Editor Text="{Binding OtherLikeAbout}" BackgroundColor="Aqua" Grid.Row="4" Grid.Column="0"/>
                 <Editor Text="{Binding HowSupport}" BackgroundColor="Aqua" Grid.Row="4" Grid.Column="1"/>
-                <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+                <Button Clicked="OnSaveAndNext" Text="Next" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="5" Grid.Column="1"/>
                 <Button Clicked="Button_Back" Text="Back" AbsoluteLayout.LayoutBounds="1,0,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"
                 Grid.Row="5" Grid.Column="0"/>
             
         </Grid>
-        </ScrollView>
+        
     </ContentPage.Content>
 </ContentPage>

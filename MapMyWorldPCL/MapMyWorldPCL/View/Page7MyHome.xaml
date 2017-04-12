@@ -19,12 +19,9 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-
-            <Label Text="My Home" TextColor="#512769" FontSize="22" Grid.Row="0" Grid.Column="0"/>
-            <AbsoluteLayout>
-                <Image Source="p8rt" AbsoluteLayout.LayoutBounds="1,0.2,40,40" AbsoluteLayout.LayoutFlags="PositionProportional" 
+            <Image Source="p8rt" HorizontalOptions="End" 
                    Grid.Row="0" Grid.Column="1"/>
-            </AbsoluteLayout>
+            <Label Text="My Home" TextColor="#512769" FontSize="22" Grid.Row="0" Grid.Column="0"/>
             <StackLayout Grid.Row="1" Grid.Column="0" >
                 <Label Text="What type of home I live in?" TextColor="Black" FontSize="18"/>
                 <Label Text="(house, unit, share house, supported accommodation)" TextColor="Gray" FontSize="18"/>
@@ -46,7 +43,7 @@
                 <Label Text=" Do I use any equipment or other things to help me at home?" TextColor="Black" FontSize="18"/>
                 <Editor Text="{Binding Equipment}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
             </StackLayout>
-            <Image Source="p8mt.jpg" Aspect="AspectFill" Grid.Row="3" Grid.RowSpan="2" Grid.Column="1"/>
+            <Image Source="p8mt.jpg" Aspect="AspectFit" Grid.Row="3" Grid.Column="1"/>
             <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" 
                 AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="5" Grid.Column="1"/>

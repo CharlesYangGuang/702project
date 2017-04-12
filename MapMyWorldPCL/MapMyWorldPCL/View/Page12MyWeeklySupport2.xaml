@@ -4,6 +4,7 @@
              x:Class="MapMyWorldPCL.View.Page12MyWeeklySupport2"
              BackgroundColor="#F5F1E8"
              NavigationPage.HasNavigationBar="False">
+    <ScrollView>
     <Grid RowSpacing="10" Margin="40">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -52,4 +53,5 @@
                 Grid.Row="8" Grid.Column="0"/>
 
     </Grid>
+    </ScrollView>
 </ContentPage>
