@@ -4,10 +4,6 @@
              x:Class="MapMyWorldPCL.View.Page13MyHealthAndWellbeing"
              BackgroundColor="#F5F1E8"
              NavigationPage.HasNavigationBar="False">
-    <!--<ContentPage.Padding>
-        <OnPlatform x:TypeArguments ="Thickness"
-                    Android="20,20,20,20"/>
-    </ContentPage.Padding>-->
     <ContentPage.Content>
         <ScrollView>
         <Grid>
@@ -16,9 +12,11 @@
                     <RowDefinition Height="60"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <StackLayout Margin="30">
+                <StackLayout Margin="30" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
                 <AbsoluteLayout>
                     <Image Source="p14rt" AbsoluteLayout.LayoutBounds="1,0.2,40,40" AbsoluteLayout.LayoutFlags="PositionProportional"/>
                 </AbsoluteLayout>
@@ -36,9 +34,14 @@
                 <Label Text="[Example: I'd like to reduce my weight by joining an exercise class. I need to find a suitable class and someone to take me]" 
                TextColor="Gray" FontSize="13"/>
                 <Editor Text="{Binding NotWorkingWell}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
-                <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
-                <Button Clicked="Button_Back" Text="Back" AbsoluteLayout.LayoutBounds="0,1,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"/>
-            </StackLayout>
+                </StackLayout>
+                <Button Clicked="OnSaveAndNext" Text="Next" Grid.Row="1" Grid.Column="0" 
+                        AbsoluteLayout.LayoutBounds="1,1,0.2,60" 
+                        AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+                <Button Clicked="Button_Back" Text="Back" Grid.Row="1" Grid.Column="2"
+                        AbsoluteLayout.LayoutBounds="0,1,40,60"
+                        AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            
         </Grid>
         </ScrollView>
     </ContentPage.Content>

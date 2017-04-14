@@ -5,7 +5,7 @@
              BackgroundColor="#F5F1E8"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        
+        <!--<ScrollView>
             <Grid RowSpacing="5" Margin="20">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -41,7 +41,42 @@
                 <Button Clicked="Button_Back" Text="Back" AbsoluteLayout.LayoutBounds="1,0,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"
                 Grid.Row="5" Grid.Column="0"/>
             
-        </Grid>
-        
+          </Grid>
+        </ScrollView>-->
+        <ScrollView>
+            <Grid RowSpacing="5" Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
+                    <Label Text="Who I am" TextColor="#512769" FontSize="22"/>
+                    <Label Text="My feeling, my beliefs and my attitudes are important to how I act, think and express my self"
+                   TextColor="Black" FontSize="20"/>
+                </StackLayout>
+                <StackLayout x:Name="Question" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3">
+                    <Label Text="What is important to me?" TextColor="Black" FontSize="17"/>
+                    <Label Text="(Think about what makes you happy and what makes you sad)" TextColor="Black" FontSize="15"/>
+                    <Editor Text="{Binding WhatImportant}" BackgroundColor="Aqua" HeightRequest="500" VerticalOptions="FillAndExpand"/>
+                    <Label Text="What do I like about myself?" TextColor="Black" FontSize="17"/>
+                    <Editor Text="{Binding WhatLike}" BackgroundColor="Aqua" HeightRequest="500" VerticalOptions="FillAndExpand"/>
+                    <Label Text="What do other people like about me?" TextColor="Black" FontSize="17"/>
+                    <Editor Text="{Binding OtherLikeAbout}" BackgroundColor="Aqua" HeightRequest="500" VerticalOptions="FillAndExpand"/>
+                    <Label Text="How to best support me?" TextColor="Black" FontSize="17"/>
+                    <Editor Text="{Binding HowSupport}" BackgroundColor="Aqua" HeightRequest="500" VerticalOptions="FillAndExpand"/>
+                </StackLayout>
+                
+                <Button Clicked="OnSaveAndNext" Text="Next" Grid.Row="2" Grid.Column="2"/>
+                <Button Clicked="Button_Back" Text="Back" Grid.Row="2" Grid.Column="0"/>
+
+            </Grid>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
