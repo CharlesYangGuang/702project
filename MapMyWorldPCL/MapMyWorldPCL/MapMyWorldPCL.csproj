@@ -57,6 +57,7 @@
     <Compile Include="Models\form7MyHome.cs" />
     <Compile Include="Models\form8DailyA1.cs" />
     <Compile Include="Models\form9DailyA2.cs" />
+    <Compile Include="Models\formDetail.cs" />
     <Compile Include="Models\formMainPage.cs" />
     <Compile Include="Models\form12WeeklySupport2.cs" />
     <Compile Include="View\MainPage.xaml.cs">

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MapMyWorldPCL.Models
 {
-    class form4Who
+    public class form4Who
     {
         public int ID { get; set; }
         public string WhatImportant { get; set; }

@@ -18,13 +18,16 @@ namespace MapMyWorldPCL.View
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            //BindingContext = await App.Database.GetMainPage();
+            if (App.Database.CurrentID != 0)
+            {
+                BindingContext = await App.Database.GetMainPage(App.Database.CurrentID);
+            }
         }
 
         async void OnSaveAndNext(object sender, EventArgs e)
         {
-            var info = (Models.formMainPage)BindingContext;
-            await App.Database.SaveMainPage(info);
+            var model = (Models.formMainPage)BindingContext;
+            App.Database.SaveMainPage(model);
             await Navigation.PushAsync(new Page4Who());
         }
     }

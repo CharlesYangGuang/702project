@@ -14,17 +14,24 @@ namespace MapMyWorldPCL.View
     {
         public Page4Who()
         {
-            BindingContext = new form4Who();
+            BindingContext = new form4Who() { ID = App.Database.CurrentID };
             InitializeComponent();
         }
 
         protected override async void OnAppearing()
         {
             base.OnAppearing();
+            //form4Who model = await App.Database.GetPage4();
+            //if (model != null)
+            //{
+            //    BindingContext = model;
+            //}
         }
 
         async void OnSaveAndNext(object sender, EventArgs e)
         {
+            var model = (form4Who)BindingContext;
+            //App.Database.SavePage4(model);
             await Navigation.PushAsync(new Page5TheWay());
         }
 
