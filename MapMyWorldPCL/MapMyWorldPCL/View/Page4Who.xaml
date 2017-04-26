@@ -43,8 +43,8 @@
             
           </Grid>
         </ScrollView>-->
-        <ScrollView>
-            <Grid RowSpacing="5" Margin="20">
+        <ScrollView Margin="30">
+            <Grid RowSpacing="5">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="10*"/>
@@ -61,21 +61,19 @@
                     <Label Text="My feeling, my beliefs and my attitudes are important to how I act, think and express my self"
                    TextColor="Black" FontSize="20"/>
                 </StackLayout>
-                <StackLayout x:Name="Question" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3">
+                <StackLayout x:Name="Question" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="30">
                     <Label Text="What is important to me?" TextColor="Black" FontSize="17"/>
                     <Label Text="(Think about what makes you happy and what makes you sad)" TextColor="Black" FontSize="15"/>
-                    <Editor Text="{Binding WhatImportant}" BackgroundColor="Aqua" HeightRequest="500" VerticalOptions="FillAndExpand"/>
+                    <Editor Text="{Binding WhatImportant}" BackgroundColor="White" HeightRequest="500" WidthRequest="400" VerticalOptions="FillAndExpand"/>
                     <Label Text="What do I like about myself?" TextColor="Black" FontSize="17"/>
-                    <Editor Text="{Binding WhatLike}" BackgroundColor="Aqua" HeightRequest="500" VerticalOptions="FillAndExpand"/>
+                    <Editor Text="{Binding WhatLike}" BackgroundColor="White" HeightRequest="500" WidthRequest="400" VerticalOptions="FillAndExpand"/>
                     <Label Text="What do other people like about me?" TextColor="Black" FontSize="17"/>
-                    <Editor Text="{Binding OtherLikeAbout}" BackgroundColor="Aqua" HeightRequest="500" VerticalOptions="FillAndExpand"/>
+                    <Editor Text="{Binding OtherLikeAbout}" BackgroundColor="White" HeightRequest="500" WidthRequest="400" VerticalOptions="FillAndExpand"/>
                     <Label Text="How to best support me?" TextColor="Black" FontSize="17"/>
-                    <Editor Text="{Binding HowSupport}" BackgroundColor="Aqua" HeightRequest="500" VerticalOptions="FillAndExpand"/>
+                    <Editor Text="{Binding HowSupport}" BackgroundColor="White" HeightRequest="500" WidthRequest="400" VerticalOptions="FillAndExpand"/>
                 </StackLayout>
-                
-                <Button Clicked="OnSaveAndNext" Text="Next" Grid.Row="2" Grid.Column="2"/>
                 <Button Clicked="Button_Back" Text="Back" Grid.Row="2" Grid.Column="0"/>
-
+                <Button Clicked="OnSaveAndNext" Text="Next" Grid.Row="2" Grid.Column="2"/>
             </Grid>
         </ScrollView>
     </ContentPage.Content>

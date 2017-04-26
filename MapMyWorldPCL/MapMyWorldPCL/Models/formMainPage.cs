@@ -13,6 +13,7 @@ namespace MapMyWorldPCL.Models
         public int ID { get; set; }
 
         public string Name { get; set; }
+        public int Password { get; set; }
         public DateTime Date { get; set; } = DateTime.Today;
     }
 }
