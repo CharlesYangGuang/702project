@@ -68,7 +68,7 @@
             <Label Text="Are there any programs and therapy supports you would like to but don't currently have?"/>
             <Editor Text="{Binding CurrentNotHave}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
         </StackLayout>
-        <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+        <Button Clicked="OnSaveAndNext" Text="Next" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="9" Grid.Column="3"/>
         <Button Clicked="Button_Back" Text="Back" AbsoluteLayout.LayoutBounds="1,0,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"
                 Grid.Row="9" Grid.Column="0"/>

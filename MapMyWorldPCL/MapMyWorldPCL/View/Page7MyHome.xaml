@@ -46,7 +46,7 @@
                 <Editor Text="{Binding Equipment}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
             </StackLayout>
             <Image Source="p8mt.jpg" Aspect="AspectFit" Grid.Row="4" Grid.Column="1"/>
-            <Button Clicked="OnSaveAndNext" Text="Next Page" 
+            <Button Clicked="OnSaveAndNext" Text="Next" 
                 Grid.Row="5" Grid.Column="1"/>
             <Button Clicked="Button_Back" Text="Back" 
                 Grid.Row="5" Grid.Column="0"/>

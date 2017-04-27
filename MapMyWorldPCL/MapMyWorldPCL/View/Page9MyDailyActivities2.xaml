@@ -10,13 +10,13 @@
                 <RowDefinition Height="2*"/>
                 <RowDefinition Height="2*"/>
                 <RowDefinition Height="2*"/>
+                <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="auto"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
 
         </Grid.ColumnDefinitions>
 
@@ -79,8 +79,8 @@
         <Editor Text="{Binding WhatIF}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1"/>
         <Editor Text="{Binding WhatIsF}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="2"/>
         <Editor Text="{Binding WhatIsNotF}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="3"/>
-        <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
-                Grid.Row="4" Grid.Column="4"/>
+        <Button Clicked="OnSaveAndNext" Text="Next" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+                Grid.Row="4" Grid.Column="3"/>
         <Button Clicked="Button_Back" Text="Back" AbsoluteLayout.LayoutBounds="1,0,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"
                 Grid.Row="4" Grid.Column="0"/>
     </Grid>

@@ -70,7 +70,7 @@
         <Editor Text="{Binding For5}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="1"/>
         <Editor Text="{Binding When5}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="2"/>
         <Editor Text="{Binding HowOften5}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="3"/>
-        <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+        <Button Clicked="OnSaveAndNext" Text="Next" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="7" Grid.Column="3"/>
         <Button Clicked="Button_Back" Text="Back" AbsoluteLayout.LayoutBounds="1,0,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"
                 Grid.Row="7" Grid.Column="0"/>

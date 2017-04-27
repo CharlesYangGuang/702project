@@ -77,7 +77,7 @@
             <Editor Text="{Binding Who6}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="1"/>
             <Editor Text="{Binding Purpose6}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="2"/>
             <Editor Text="{Binding HowOften6}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="3"/>
-            <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+            <Button Clicked="OnSaveAndNext" Text="Next" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="8" Grid.Column="3"/>
             <Button Clicked="Button_Back" Text="Back" AbsoluteLayout.LayoutBounds="0,1,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"
                 Grid.Row="8" Grid.Column="0"/>
