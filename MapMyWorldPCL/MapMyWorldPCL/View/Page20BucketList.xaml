@@ -11,7 +11,7 @@
         <BoxView BackgroundColor="#F5F1E8" HeightRequest="10"/>
         <Label Text="If you had one ultimate wish, what would it be?" FontAttributes="Bold"/>
         <Label Text="Example: An overseas trip? Go on a hot air balloon? To get married?"/>
-        <Editor Text="{Binding UltimateWish}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+        <Editor Text="{Binding UltimateWish}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
         <Button Clicked="OnSaveAndNext" Text="Next Page" 
                 AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
         <Button Clicked="Button_Back" Text="Back" 

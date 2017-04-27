@@ -35,38 +35,38 @@
         <Label Text="Purpose" TextColor="#512769" FontAttributes="Bold" FontSize="15" Grid.Row="1" Grid.Column="2"/>
         <Label Text="How often" TextColor="#512769" FontAttributes="Bold" FontSize="15" Grid.Row="1" Grid.Column="3"/>
 
-        <Editor Text="{Binding Program11}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="0"/>
-        <Editor Text="{Binding Who11}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
-        <Editor Text="{Binding Purpose11}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="2"/>
-        <Editor Text="{Binding HowOften11}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="3"/>
+        <Editor Text="{Binding Program11}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="0"/>
+        <Editor Text="{Binding Who11}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
+        <Editor Text="{Binding Purpose11}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="2"/>
+        <Editor Text="{Binding HowOften11}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="3"/>
         
-        <Editor Text="{Binding Program12}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="0"/>
-        <Editor Text="{Binding Who12}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1"/>
-        <Editor Text="{Binding Purpose12}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="2"/>
-        <Editor Text="{Binding HowOften12}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="3"/>
+        <Editor Text="{Binding Program12}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="0"/>
+        <Editor Text="{Binding Who12}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1"/>
+        <Editor Text="{Binding Purpose12}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="2"/>
+        <Editor Text="{Binding HowOften12}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="3"/>
         
-        <Editor Text="{Binding Program13}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="0"/>
-        <Editor Text="{Binding Who13}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1"/>
-        <Editor Text="{Binding Purpose13}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="2"/>
-        <Editor Text="{Binding HowOften13}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="3"/>
+        <Editor Text="{Binding Program13}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="0"/>
+        <Editor Text="{Binding Who13}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1"/>
+        <Editor Text="{Binding Purpose13}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="2"/>
+        <Editor Text="{Binding HowOften13}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="3"/>
         
-        <Editor Text="{Binding Program14}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="0"/>
-        <Editor Text="{Binding Who14}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="1"/>
-        <Editor Text="{Binding Purpose14}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="2"/>
-        <Editor Text="{Binding HowOften14}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="3"/>
+        <Editor Text="{Binding Program14}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="0"/>
+        <Editor Text="{Binding Who14}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="1"/>
+        <Editor Text="{Binding Purpose14}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="2"/>
+        <Editor Text="{Binding HowOften14}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="3"/>
         
-        <Editor Text="{Binding Program15}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="0"/>
-        <Editor Text="{Binding Who15}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="1"/>
-        <Editor Text="{Binding Purpose15}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="2"/>
-        <Editor Text="{Binding HowOften15}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="3"/>
+        <Editor Text="{Binding Program15}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="0"/>
+        <Editor Text="{Binding Who15}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="1"/>
+        <Editor Text="{Binding Purpose15}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="2"/>
+        <Editor Text="{Binding HowOften15}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="3"/>
         
-        <Editor Text="{Binding Program16}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="0"/>
-        <Editor Text="{Binding Who16}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="1"/>
-        <Editor Text="{Binding Purpose16}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="2"/>
-        <Editor Text="{Binding HowOften16}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="3"/>
+        <Editor Text="{Binding Program16}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="0"/>
+        <Editor Text="{Binding Who16}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="1"/>
+        <Editor Text="{Binding Purpose16}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="2"/>
+        <Editor Text="{Binding HowOften16}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="3"/>
         <StackLayout Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="4">
             <Label Text="Are there any programs and therapy supports you would like to but don't currently have?"/>
-            <Editor Text="{Binding CurrentNotHave}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+            <Editor Text="{Binding CurrentNotHave}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
         </StackLayout>
         <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="9" Grid.Column="3"/>

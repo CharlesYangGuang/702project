@@ -23,17 +23,17 @@
                 <Label Text="My health and wellbeing" TextColor="#512769" FontSize="20"/>
                 <Label Text="My current health conserns or challenges:" TextColor="Black" FontAttributes="Bold" FontSize="14"/>
                 <Label Text="[Example: I've got high blood pressure and diabetes]" TextColor="Gray" FontSize="13"/>
-                <Editor Text="{Binding HealthConcerns}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+                <Editor Text="{Binding HealthConcerns}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
                 <Label Text="Important things to me about my health are:" TextColor="Black" FontAttributes="Bold" FontSize="14"/>
                 <Label Text="[Example: Keeping fit and healthy]" TextColor="Gray" FontSize="13"/>
-                <Editor Text="{Binding ImportantThings}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+                <Editor Text="{Binding ImportantThings}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
                 <Label Text="What is going well with my health:" TextColor="Black" FontAttributes="Bold" FontSize="14"/>
                 <Label Text="[Example: I eat a balance diet]" TextColor="Gray" FontSize="13"/>
-                <Editor Text="{Binding GoingWell}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+                <Editor Text="{Binding GoingWell}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
                 <Label Text="What is not working well with my health" TextColor="Black" FontAttributes="Bold" FontSize="14"/>
                 <Label Text="[Example: I'd like to reduce my weight by joining an exercise class. I need to find a suitable class and someone to take me]" 
                TextColor="Gray" FontSize="13"/>
-                <Editor Text="{Binding NotWorkingWell}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+                <Editor Text="{Binding NotWorkingWell}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
                 </StackLayout>
                 <Button Clicked="OnSaveAndNext" Text="Next" Grid.Row="1" Grid.Column="0" 
                         AbsoluteLayout.LayoutBounds="1,1,0.2,60" 

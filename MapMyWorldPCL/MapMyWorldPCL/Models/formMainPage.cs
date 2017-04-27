@@ -11,9 +11,8 @@ namespace MapMyWorldPCL.Models
     {
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
-
         public string Name { get; set; }
-        public int Password { get; set; }
+        public string Password { get; set; }
         public DateTime Date { get; set; } = DateTime.Today;
     }
 }

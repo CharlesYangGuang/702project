@@ -27,23 +27,23 @@
             <StackLayout Grid.Row="1" Grid.Column="0" >
                 <Label Text="What type of home I live in?" TextColor="Black" FontSize="15"/>
                 <Label Text="(house, unit, share house, supported accommodation)" TextColor="Gray" FontSize="10"/>
-                <Editor Text="{Binding TypeOfHome}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+                <Editor Text="{Binding TypeOfHome}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
             </StackLayout>
             <StackLayout Grid.Row="2" Grid.Column="0" >
                 <Label Text="The people I usually live with" TextColor="Black" FontSize="15"/>
-                <Editor Text="{Binding PeopleLiveWith}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+                <Editor Text="{Binding PeopleLiveWith}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
             </StackLayout>
             <StackLayout Grid.Row="3" Grid.Column="0" >
                 <Label Text="Who helps me at home?" TextColor="Black" FontSize="15"/>
-                <Editor Text="{Binding WhoHelp}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+                <Editor Text="{Binding WhoHelp}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
             </StackLayout>
             <StackLayout Grid.Row="3" Grid.Column="1" >
                 <Label Text="What do they help me with?" TextColor="Black" FontSize="15"/>
-                <Editor Text="{Binding WhatHelp}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+                <Editor Text="{Binding WhatHelp}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
             </StackLayout>
             <StackLayout Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" >
                 <Label Text=" Do I use any equipment or other things to help me at home?" TextColor="Black" FontSize="15"/>
-                <Editor Text="{Binding Equipment}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+                <Editor Text="{Binding Equipment}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
             </StackLayout>
             <Image Source="p8mt.jpg" Aspect="AspectFit" Grid.Row="4" Grid.Column="1"/>
             <Button Clicked="OnSaveAndNext" Text="Next Page" 

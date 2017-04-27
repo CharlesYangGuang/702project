@@ -17,7 +17,7 @@
         <Label Text="Think about: daily living, home, relationships, health and wellbeing, lifelong learning, work, social and community, and choice and control."/>
         <BoxView BackgroundColor="#F5F1E8" HeightRequest="10"/>
         <Label Text="What would you like to achieve in the next five years?"/>
-        <Editor Text="{Binding TheFuture}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+        <Editor Text="{Binding TheFuture}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
         <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
         <Button Clicked="Button_Back" Text="Back" 
                 AbsoluteLayout.LayoutBounds="1,0,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"/>

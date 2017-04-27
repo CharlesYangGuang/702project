@@ -40,15 +40,15 @@
 
         <StackLayout Grid.Row="1" Grid.Column="1">
             <Label Text="What I do now:" TextColor="#512769" FontSize="18"/>
-            <Editor Text="{Binding WhatIM}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+            <Editor Text="{Binding WhatIM}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
         </StackLayout>
         <StackLayout Grid.Row="1" Grid.Column="2">
             <Label Text="What is working well:" TextColor="#512769" FontSize="18"/>
-            <Editor Text="{Binding WhatIsM}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+            <Editor Text="{Binding WhatIsM}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
         </StackLayout>
         <StackLayout Grid.Row="1" Grid.Column="3">
             <Label Text="What is not working well:" TextColor="#512769" FontSize="18"/>
-            <Editor Text="{Binding WhatIsNotM}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand"/>
+            <Editor Text="{Binding WhatIsNotM}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
         </StackLayout>
         <StackLayout Grid.Row="2" Grid.Column="0">
             <Label Text="Tuesday" TextColor="#512769" FontSize="18" VerticalOptions="Start"/>
@@ -62,9 +62,9 @@
 
             <Label Text="Evening" TextColor="Black" FontSize="18" VerticalOptions="End"/>
         </StackLayout>
-        <Editor Text="{Binding WhatIT}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
-        <Editor Text="{Binding WhatIsT}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="2"/>
-        <Editor Text="{Binding WhatIsNotT}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="3"/>
+        <Editor Text="{Binding WhatIT}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
+        <Editor Text="{Binding WhatIsT}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="2"/>
+        <Editor Text="{Binding WhatIsNotT}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="3"/>
         <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="3" Grid.Column="3"/>
         <Button Clicked="Button_Back" Text="Back" AbsoluteLayout.LayoutBounds="1,0,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"

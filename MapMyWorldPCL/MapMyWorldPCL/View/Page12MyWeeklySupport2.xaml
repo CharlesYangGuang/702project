@@ -36,17 +36,17 @@
             </Label.FormattedText>
         </Label>
         <Entry Text="Behaviour support" TextColor="Black" FontSize="12" BackgroundColor="Silver" Grid.Row="2" Grid.Column="0"/>
-        <Editor Text="{Binding BehaviourSupport}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
+        <Editor Text="{Binding BehaviourSupport}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
         <Entry Text="Respite" TextColor="Black" FontSize="12" BackgroundColor="Silver" Grid.Row="3" Grid.Column="0"/>
-        <Editor Text="{Binding Respite}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1"/>
+        <Editor Text="{Binding Respite}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1"/>
         <Entry Text="Other" TextColor="Black" FontSize="12" BackgroundColor="Silver" Grid.Row="4" Grid.Column="0"/>
-        <Editor Text="{Binding Other1}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1"/>
+        <Editor Text="{Binding Other1}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1"/>
         <Entry Text="Other" TextColor="Black" FontSize="12" BackgroundColor="Silver" Grid.Row="5" Grid.Column="0"/>
-        <Editor Text="{Binding Other2}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="1"/>
+        <Editor Text="{Binding Other2}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="5" Grid.Column="1"/>
         <Entry Text="Other" TextColor="Black" FontSize="12" BackgroundColor="Silver" Grid.Row="6" Grid.Column="0"/>
-        <Editor Text="{Binding Other3}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="1"/>
+        <Editor Text="{Binding Other3}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="6" Grid.Column="1"/>
         <Entry Text="Other" TextColor="Black" FontSize="12" BackgroundColor="Silver" Grid.Row="7" Grid.Column="0"/>
-        <Editor Text="{Binding Other4}" BackgroundColor="Aqua" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="1"/>
+        <Editor Text="{Binding Other4}" BackgroundColor="White" VerticalOptions="FillAndExpand" Grid.Row="7" Grid.Column="1"/>
         <Button Clicked="OnSaveAndNext" Text="Next Page" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                 Grid.Row="8" Grid.Column="1"/>
         <Button Clicked="Button_Back" Text="Back" AbsoluteLayout.LayoutBounds="1,0,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"
