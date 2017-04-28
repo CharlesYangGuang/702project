@@ -1,21 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MapMyWorldPCL.View.CustomerTable">
-    <TableView Intent="Settings">
-        <TableRoot>
-            <TableSection Title="Getting Started">
-                <ViewCell>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="bulb.png" />
-                        <Label Text="left"
-                              TextColor="#f35e20" />
-                        <Label Text="right"
-                              HorizontalOptions="EndAndExpand"
-                              TextColor="#503026" />
-                    </StackLayout>
-                </ViewCell>
-            </TableSection>
-        </TableRoot>
-    </TableView>
+             x:Class="MapMyWorldPCL.View.CustomerTable"
+             Title="CustomerTable">
+    <ContentPage.Content>
+        <ListView x:Name="customerTable">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout BackgroundColor="White" Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Name}"/>
+                                <Label Text="{Binding Date}"/>
+                                <Button Text="view"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
 </ContentPage>
