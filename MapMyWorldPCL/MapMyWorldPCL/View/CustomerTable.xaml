@@ -4,16 +4,17 @@
              x:Class="MapMyWorldPCL.View.CustomerTable"
              Title="CustomerTable">
     <ContentPage.Content>
-        <ListView x:Name="customerTable">
+        <ListView x:Name="listView" HasUnevenRows="True">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout BackgroundColor="White" Orientation="Vertical">
-                            <StackLayout Orientation="Horizontal">
-                                <Label Text="{Binding Name}"/>
-                                <Label Text="{Binding Date}"/>
-                                <Button Text="view"/>
-                            </StackLayout>
+                        <StackLayout x:Name="Item" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                            <Label Text="{Binding Name}" WidthRequest="200" HeightRequest="80" FontSize="20"/>
+                            <Label Text="{Binding Date}" WidthRequest="200" HeightRequest="80" FontSize="20"/>
+                            <Button Text="View" WidthRequest="200" HeightRequest="80"/>
+                            <Button Command="{Binding DeleteThisForm}"
+                                    Clicked="OnDeleted"
+                                    Text="Delete" WidthRequest="200" HeightRequest="80"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

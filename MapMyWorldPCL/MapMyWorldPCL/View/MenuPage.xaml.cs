@@ -103,5 +103,11 @@ namespace MapMyWorldPCL.View
             Detail = new NavigationPage(new Page20BucketList());
             IsPresented = false;
         }
+
+        private void Button_Clicked_List(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new CustomerTable());
+            IsPresented = false;
+        }
     }
 }

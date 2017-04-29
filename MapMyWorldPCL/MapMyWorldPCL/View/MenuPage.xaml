@@ -23,6 +23,7 @@
                         <Button Text="11 My short term dreams and goals: next 12 months" Clicked="Button_Clicked_11"/>
                         <Button Text="12 My long term dreams and goals: the future" Clicked="Button_Clicked_12"/>
                         <Button Text="13 My ultimate bucket list" Clicked="Button_Clicked_13"/>
+                        <Button Text="Return Customer List" Clicked="Button_Clicked_List"/>
                     </StackLayout>
                 </ScrollView>
             </ContentPage.Content>
