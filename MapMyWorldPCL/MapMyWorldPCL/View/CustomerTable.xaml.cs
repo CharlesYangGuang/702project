@@ -30,6 +30,16 @@ namespace MapMyWorldPCL.View
         {
             await Navigation.PushAsync(new CustomerTable());
         }
-        
+
+        private async void viewButton(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page4Who());
+        }
+
+        private async void OnAddNew(object sender, EventArgs e)
+        {
+            App.Database.CurrentID = 0;
+            await Navigation.PushAsync(new MainPage());
+        }
     }
 }

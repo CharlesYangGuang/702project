@@ -2,23 +2,31 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MapMyWorldPCL.View.CustomerTable"
+             NavigationPage.HasNavigationBar="False"
              Title="CustomerTable">
     <ContentPage.Content>
-        <ListView x:Name="listView" HasUnevenRows="True">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout x:Name="Item" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                            <Label Text="{Binding Name}" WidthRequest="200" HeightRequest="80" FontSize="20"/>
-                            <Label Text="{Binding Date}" WidthRequest="200" HeightRequest="80" FontSize="20"/>
-                            <Button Text="View" WidthRequest="200" HeightRequest="80"/>
-                            <Button Command="{Binding DeleteThisForm}"
+        <ScrollView>
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="20">
+                <ListView x:Name="listView" HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout x:Name="Item" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <Label Text="{Binding Name}" WidthRequest="200" HeightRequest="80" FontSize="20"/>
+                                    <Label Text="{Binding Date}" WidthRequest="200" HeightRequest="80" FontSize="20"/>
+                                    <Button Command="{Binding ViewThisForm}" Text="View" WidthRequest="100" HeightRequest="80"
+                                    Clicked="viewButton" />
+                                    <Button Command="{Binding DeleteThisForm}"
                                     Clicked="OnDeleted"
-                                    Text="Delete" WidthRequest="200" HeightRequest="80"/>
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+                                    Text="Delete" WidthRequest="100" HeightRequest="80"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Button Text="Add" HorizontalOptions="End" WidthRequest="200" HeightRequest="50" FontSize="20" Clicked="OnAddNew"/>
+            </StackLayout>
+        </ScrollView>
+        
     </ContentPage.Content>
 </ContentPage>

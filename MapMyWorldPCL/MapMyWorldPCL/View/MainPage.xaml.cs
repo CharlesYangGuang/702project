@@ -27,8 +27,8 @@ namespace MapMyWorldPCL.View
         async void OnSaveAndNext(object sender, EventArgs e)
         {
             var model = (Models.formMainPage)BindingContext;
-            App.Database.SaveMainPage(model);
-            await Navigation.PushAsync(new Page4Who());
+            int modelID = await App.Database.SaveMainPage(model);
+            await Navigation.PushAsync(new Page4Who(modelID));
         }
     }
 }

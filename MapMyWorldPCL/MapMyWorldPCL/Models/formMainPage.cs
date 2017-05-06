@@ -24,7 +24,17 @@ namespace MapMyWorldPCL.Models
             {
                 return new Command(() =>
                 {
-                    App.Database.DeleteFrom(this).Wait();
+                   App.Database.DeleteFrom(this);
+                });
+            }
+        }
+        public ICommand ViewThisForm
+        {
+            get
+            {
+                return new Command(() =>
+                {
+                    App.Database.CurrentID = ID;
                 });
             }
         }

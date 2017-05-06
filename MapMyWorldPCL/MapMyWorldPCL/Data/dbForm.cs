@@ -19,6 +19,7 @@ namespace MapMyWorldPCL.Data
             database = new SQLiteAsyncConnection(dbPath);
             database.CreateTableAsync<formMainPage>().Wait();
             database.CreateTableAsync<form4Who>().Wait();
+            database.CreateTableAsync<form5TheWay>().Wait();
         }
 
         public Task<List<formMainPage>> GetFormList()
@@ -26,10 +27,10 @@ namespace MapMyWorldPCL.Data
             return database.Table<formMainPage>().Where(x => !x.formDeleted).ToListAsync();
         }
 
-        public async Task DeleteFrom(formMainPage form)
+        public void DeleteFrom(formMainPage form)
         {
             form.formDeleted = true;
-            SaveMainPage(form);
+            database.UpdateAsync(form);
         }
 
         public Task<formMainPage> GetMainPage(int id = 0)
@@ -37,41 +38,59 @@ namespace MapMyWorldPCL.Data
             return database.Table<formMainPage>().Where(x => x.ID == id).FirstOrDefaultAsync();
         }
 
-        public void SaveMainPage(formMainPage model)
+        public async Task<int> SaveMainPage(formMainPage model)
         {
             if (model.ID != 0)
             {
-                database.UpdateAsync(model);
+                await database.UpdateAsync(model);
                 CurrentID = model.ID;
             }
             else
             {
-                database.InsertAsync(model).ContinueWith(t => {
+                await database.InsertAsync(model).ContinueWith(t => {
                     CurrentID = model.ID;
                 });
             }
+            return CurrentID;
         }
 
         public Task<form4Who> GetPage4()
         {
             Task<form4Who> model = null;
-            if (CurrentID > 0)
-            {
-                model = database.Table<form4Who>().Where(x => x.ID == CurrentID).FirstOrDefaultAsync();
-            }
+            model = database.Table<form4Who>().Where(x => x.ID == CurrentID).FirstOrDefaultAsync();
             return model;
         }
 
-        public void SavePage4(form4Who model)
+        public async Task SavePage4(form4Who model)
         {
-            var data = database.Table<form4Who>().Where(x => x.ID == CurrentID).FirstOrDefaultAsync().Result;
+            var data = await database.Table<form4Who>().Where(x => x.ID == CurrentID).FirstOrDefaultAsync();
             if (data != null)
             {
-                database.UpdateAsync(model);
+                await database.UpdateAsync(model);
             }
             else
             {
-                database.InsertAsync(model);
+                await database.InsertAsync(model);
+            }
+        }
+
+        public Task<form5TheWay> GetPage5()
+        {
+            Task<form5TheWay> model = null;
+            model = database.Table<form5TheWay>().Where(x => x.ID == CurrentID).FirstOrDefaultAsync();
+            return model;
+        }
+
+        public async Task SavePage5(form5TheWay model)
+        {
+            var data = await database.Table<form5TheWay>().Where(x => x.ID == CurrentID).FirstOrDefaultAsync();
+            if (data != null)
+            {
+                await database.UpdateAsync(model);
+            }
+            else
+            {
+                await database.InsertAsync(model);
             }
         }
     }

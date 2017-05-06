@@ -14,6 +14,13 @@ namespace MapMyWorldPCL.View
     {
         public Page4Who()
         {
+            BindingContext = new form4Who() { ID = App.Database.CurrentID };
+            InitializeComponent();
+        }
+
+        public Page4Who(int curID)
+        {
+            BindingContext = new form4Who() { ID = curID };
             InitializeComponent();
         }
 
@@ -25,16 +32,12 @@ namespace MapMyWorldPCL.View
             {
                 BindingContext = model;
             }
-            else
-            {
-                BindingContext = new form4Who() { ID = App.Database.CurrentID };
-            }
         }
 
         async void OnSaveAndNext(object sender, EventArgs e)
         {
             var model = (form4Who)BindingContext;
-            App.Database.SavePage4(model);
+            await App.Database.SavePage4(model);
             await Navigation.PushAsync(new Page5TheWay());
         }
 

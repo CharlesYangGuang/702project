@@ -15,17 +15,26 @@ namespace MapMyWorldPCL.View
     {
         public Page5TheWay()
         {
-            BindingContext = new form5TheWay();
+            BindingContext = new form5TheWay() { ID = App.Database.CurrentID };
             InitializeComponent();
         }
         protected override async void OnAppearing()
         {
             base.OnAppearing();
+            form5TheWay model = await App.Database.GetPage5();
+            if (model != null)
+            {
+                BindingContext = model;
+            }
         }
+
         async void OnSaveAndNext(object sender, EventArgs e)
         {
+            var model = (form5TheWay)BindingContext;
+            await App.Database.SavePage5(model);
             await Navigation.PushAsync(new Page6Important());
         }
+
         async void Button_Back(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Page4Who());
