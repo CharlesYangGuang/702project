@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SQLite;
 
 namespace MapMyWorldPCL.Models
 {
-    class form8DailyA1
+    public class form8DailyA1
     {
+        [PrimaryKey]
         public int ID { get; set; }
         public string WhatIM { get; set; } // M = Monday
         public string WhatIsM { get; set; }

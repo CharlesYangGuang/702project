@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SQLite;
 
 namespace MapMyWorldPCL.Models
 {
-    class form6Important
+    public class form6Important
     {
+        [PrimaryKey]
         public int ID { get; set; }
         public string MyFamily { get; set; }
         public string WorkOrSchool { get; set; }

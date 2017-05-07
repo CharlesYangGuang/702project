@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace MapMyWorldPCL.Models
 {
-    class form12WeeklySupport2
+    public class form12WeeklySupport2
     {
+        [PrimaryKey]
         public int ID { get; set; }
         public string BehaviourSupport { get; set; }
         public string Respite { get; set; }

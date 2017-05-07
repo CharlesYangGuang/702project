@@ -16,12 +16,23 @@ namespace MapMyWorldPCL.View
     {
         public Page7MyHome()
         {
-            BindingContext = new form7MyHome();
+            BindingContext = new form7MyHome() { ID = App.Database.CurrentID };
             InitializeComponent();
+        }
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            form7MyHome model = await App.Database.GetPage7();
+            if (model != null)
+            {
+                BindingContext = model;
+            }
         }
 
         async void OnSaveAndNext(object sender, EventArgs e)
         {
+            var model = (form7MyHome)BindingContext;
+            await App.Database.SavePage7(model);
             await Navigation.PushAsync(new Page8MyDailyActivities1());
         }
         async void Button_Back(object sender, EventArgs e)

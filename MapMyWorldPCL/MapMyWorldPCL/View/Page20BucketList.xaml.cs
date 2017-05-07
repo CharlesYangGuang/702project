@@ -15,11 +15,22 @@ namespace MapMyWorldPCL.View
     {
         public Page20BucketList()
         {
-            BindingContext = new form20BucketList();
+            BindingContext = new form20BucketList() { ID = App.Database.CurrentID };
             InitializeComponent();
+        }
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            form20BucketList model = await App.Database.GetPage20();
+            if (model != null)
+            {
+                BindingContext = model;
+            }
         }
         async void OnSaveAndNext(object sender, EventArgs e)
         {
+            var model = (form20BucketList)BindingContext;
+            await App.Database.SavePage20(model);
             await Navigation.PushAsync(new Page21Congratulations());
         }
         async void Button_Back(object sender, EventArgs e)

@@ -15,11 +15,22 @@ namespace MapMyWorldPCL.View
     {
         public Page17MyWeek()
         {
-            BindingContext = new form17MyWeekLooked();
+            BindingContext = new form17MyWeekLooked() { ID = App.Database.CurrentID };
             InitializeComponent();
+        }
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            form17MyWeekLooked model = await App.Database.GetPage17();
+            if (model != null)
+            {
+                BindingContext = model;
+            }
         }
         async void OnSaveAndNext(object sender, EventArgs e)
         {
+            var model = (form17MyWeekLooked)BindingContext;
+            await App.Database.SavePage17(model);
             await Navigation.PushAsync(new Page18ShortTerm());
         }
         async void Button_Back(object sender, EventArgs e)

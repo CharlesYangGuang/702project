@@ -15,12 +15,22 @@ namespace MapMyWorldPCL.View
     {
         public Page15MyEquipment2()
         {
-            BindingContext = new form15Equipment2();
+            BindingContext = new form15Equipment2() { ID = App.Database.CurrentID };
             InitializeComponent();
         }
-
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            form15Equipment2 model = await App.Database.GetPage15_2();
+            if (model != null)
+            {
+                BindingContext = model;
+            }
+        }
         async void OnSaveAndNext(object sender, EventArgs e)
         {
+            var model = (form15Equipment2)BindingContext;
+            await App.Database.SavePage15_2(model);
             await Navigation.PushAsync(new Page16MyDreamGoals());
         }
         async void Button_Back(object sender, EventArgs e)

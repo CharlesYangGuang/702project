@@ -15,11 +15,22 @@ namespace MapMyWorldPCL.View
     {
         public Page18ShortTerm()
         {
-            BindingContext = new form18ShortDream();
+            BindingContext = new form18ShortDream() { ID = App.Database.CurrentID };
             InitializeComponent();
+        }
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            form18ShortDream model = await App.Database.GetPage18();
+            if (model != null)
+            {
+                BindingContext = model;
+            }
         }
         async void OnSaveAndNext(object sender, EventArgs e)
         {
+            var model = (form18ShortDream)BindingContext;
+            await App.Database.SavePage18(model);
             await Navigation.PushAsync(new Page19LongTerm());
         }
         async void Button_Back(object sender, EventArgs e)

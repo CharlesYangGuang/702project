@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace MapMyWorldPCL.Models
 {
-    class form10DailyA3
+    public class form10DailyA3
     {
+        [PrimaryKey]
         public int ID { get; set; }
         public string WhatISa { get; set; } // Sa = Saturday
         public string WhatIsSa { get; set; }

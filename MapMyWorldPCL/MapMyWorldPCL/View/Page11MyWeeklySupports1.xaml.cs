@@ -15,12 +15,22 @@ namespace MapMyWorldPCL.View
     {
         public Page11MyWeeklySupports1()
         {
-            BindingContext = new form11WeeklySupport1();
+            BindingContext = new form11WeeklySupport1() { ID = App.Database.CurrentID };
             InitializeComponent();
         }
-
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            form11WeeklySupport1 model = await App.Database.GetPage11();
+            if (model != null)
+            {
+                BindingContext = model;
+            }
+        }
         async void OnSaveAndNext(object sender, EventArgs e)
         {
+            var model = (form11WeeklySupport1)BindingContext;
+            await App.Database.SavePage11(model);
             await Navigation.PushAsync(new Page12MyWeeklySupport2());
         }
         async void Button_Back(object sender, EventArgs e)
