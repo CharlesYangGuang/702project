@@ -28,6 +28,7 @@ namespace MapMyWorldPCL.View
         {
             var model = (Models.formMainPage)BindingContext;
             int modelID = await App.Database.SaveMainPage(model);
+            App.ValidUser = true;
             await Navigation.PushAsync(new Page4Who(modelID));
         }
     }

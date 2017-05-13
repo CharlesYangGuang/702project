@@ -38,6 +38,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Const.cs" />
     <Compile Include="Data\dbForm.cs" />
     <Compile Include="IFiileHelper.cs" />
     <Compile Include="Models\form10DailyA3.cs" />

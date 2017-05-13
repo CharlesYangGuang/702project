@@ -16,7 +16,7 @@ namespace MapMyWorldPCL.View
         public CustomerTable()
         {
             InitializeComponent();
-
+            App.ValidUser = false;
         }
 
         protected override async void OnAppearing()
@@ -28,12 +28,12 @@ namespace MapMyWorldPCL.View
 
         private async void OnDeleted(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new CustomerTable());
+            await Navigation.PushAsync(new LoginView1(true));
         }
 
         private async void viewButton(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new LoginView1());
+            await Navigation.PushAsync(new LoginView1(false));
         }
 
         private async void OnAddNew(object sender, EventArgs e)

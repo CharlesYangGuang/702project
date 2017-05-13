@@ -17,17 +17,9 @@ namespace MapMyWorldPCL.Models
         public string Password { get; set; }
         public DateTime Date { get; set; } = DateTime.Today;
         public bool formDeleted { get; set; } = false;
+        public short LastPageFinished { get; set; } = 0;
 
-        public ICommand DeleteThisForm
-        {
-            get
-            {
-                return new Command(() =>
-                {
-                   App.Database.DeleteFrom(this);
-                });
-            }
-        }
+
         public ICommand ViewThisForm
         {
             get

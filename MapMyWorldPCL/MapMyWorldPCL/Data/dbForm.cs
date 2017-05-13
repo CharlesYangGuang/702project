@@ -88,6 +88,7 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page4Who);
             }
         }
 
@@ -107,6 +108,7 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page5TheWay);
             }
         }
 
@@ -126,6 +128,7 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page6Important);
             }
         }
 
@@ -412,6 +415,13 @@ namespace MapMyWorldPCL.Data
             {
                 await database.InsertAsync(model);
             }
+        }
+
+        public async Task SaveFromStatus(FormPage page)
+        {
+            var model = await GetMainPage(CurrentID);
+            model.LastPageFinished = (short)page;
+            await SaveMainPage(model);
         }
     }
 }

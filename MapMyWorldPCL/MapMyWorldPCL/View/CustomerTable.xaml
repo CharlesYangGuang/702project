@@ -16,7 +16,7 @@
                                     <Label Text="{Binding Date}" WidthRequest="200" HeightRequest="80" FontSize="20"/>
                                     <Button Command="{Binding ViewThisForm}" Text="View" WidthRequest="100" HeightRequest="80"
                                     Clicked="viewButton" />
-                                    <Button Command="{Binding DeleteThisForm}"
+                                    <Button Command="{Binding ViewThisForm}"
                                     Clicked="OnDeleted"
                                     Text="Delete" WidthRequest="100" HeightRequest="80"/>
                                 </StackLayout>

@@ -11,6 +11,7 @@ namespace MapMyWorldPCL
     public partial class App : Application
     {
         static dbForm database;
+        public static bool ValidUser = false;
         public App()
         {
             InitializeComponent();

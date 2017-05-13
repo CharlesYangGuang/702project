@@ -7,9 +7,10 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
             <Label Text="Please Enter Password" TextColor="#512769" FontAttributes="Bold" FontSize="20" WidthRequest="250"/>
-            <Entry Placeholder="password" IsPassword="True" WidthRequest="250" BackgroundColor="White"/>
+            <Entry x:Name="UserKey" Placeholder="password" IsPassword="True" WidthRequest="250" BackgroundColor="White"/>
             <BoxView BackgroundColor="#F5F1E8" HeightRequest="10"/>
-            <Button Text="Confirm" FontSize="20" FontAttributes="Bold" WidthRequest="250" BackgroundColor="Silver"/>
+            <Button Text="Confirm" FontSize="20" FontAttributes="Bold" WidthRequest="250" BackgroundColor="Silver" Clicked="OnConfirm"/>
+            <Label x:Name="RequestInfo" Text="Your password is not correct" TextColor="Red" FontSize="16" WidthRequest="250" IsVisible="False"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
