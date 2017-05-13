@@ -36,9 +36,6 @@ namespace MapMyWorldPCL.Data
             database.CreateTableAsync<form18ShortDream>().Wait();
             database.CreateTableAsync<form19LongDream>().Wait();
             database.CreateTableAsync<form20BucketList>().Wait();
-
-
-
         }
 
         public Task<List<formMainPage>> GetFormList()
@@ -148,6 +145,7 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page7MyHome);
             }
         }
 
@@ -167,6 +165,7 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page8Daily1);
             }
         }
 
@@ -186,6 +185,8 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page9Daily2);
+
             }
         }
 
@@ -205,6 +206,7 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page10Daily3);
             }
         }
 
@@ -224,6 +226,7 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page11WeeklySupport1);
             }
         }
 
@@ -243,6 +246,7 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page12WeeklySupport2);
             }
         }
 
@@ -262,6 +266,8 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page13HealthWellBeing);
+
             }
         }
 
@@ -281,6 +287,8 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page14MyProgram1);
+
             }
         }
 
@@ -300,6 +308,8 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page14MyProgram2);
+
             }
         }
 
@@ -319,6 +329,8 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page15Equipment1);
+
             }
         }
 
@@ -338,6 +350,8 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page15Equipment2);
+
             }
         }
 
@@ -357,6 +371,8 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page17MyWeekLooked);
+
             }
         }
 
@@ -376,6 +392,8 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page18ShortDream);
+
             }
         }
 
@@ -395,6 +413,8 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page19LongDream);
+
             }
         }
 
@@ -414,6 +434,8 @@ namespace MapMyWorldPCL.Data
             else
             {
                 await database.InsertAsync(model);
+                await App.Database.SaveFromStatus(FormPage.Page4Who);
+
             }
         }
 
