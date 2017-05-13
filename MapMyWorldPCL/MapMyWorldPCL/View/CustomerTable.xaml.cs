@@ -33,7 +33,7 @@ namespace MapMyWorldPCL.View
 
         private async void viewButton(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Page4Who());
+            await Navigation.PushAsync(new LoginView1());
         }
 
         private async void OnAddNew(object sender, EventArgs e)

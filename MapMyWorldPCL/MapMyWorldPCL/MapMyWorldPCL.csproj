@@ -63,6 +63,12 @@
     <Compile Include="View\CustomerTable.xaml.cs">
       <DependentUpon>CustomerTable.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\LoginDelete.xaml.cs">
+      <DependentUpon>LoginDelete.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoginView1.xaml.cs">
+      <DependentUpon>LoginView1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -317,6 +323,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="View\CustomerTable.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\LoginView1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\LoginDelete.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
