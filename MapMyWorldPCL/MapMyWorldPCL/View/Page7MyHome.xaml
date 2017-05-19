@@ -45,11 +45,11 @@
                 <Label Text=" Do I use any equipment or other things to help me at home?" TextColor="Black" FontSize="15"/>
                 <Editor Text="{Binding Equipment}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
             </StackLayout>
-            <Image Source="p8mt.jpg" Aspect="AspectFit" Grid.Row="4" Grid.Column="1"/>
+            <Image Source="p8mt.jpg" Aspect="AspectFit" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
             <Button Clicked="OnSaveAndNext" Text="Next" 
-                Grid.Row="5" Grid.Column="1"/>
+                Grid.Row="5" Grid.Column="1" WidthRequest="80" HorizontalOptions="End"/>
             <Button Clicked="Button_Back" Text="Back" 
-                Grid.Row="5" Grid.Column="0"/>
+                Grid.Row="5" Grid.Column="0" WidthRequest="80" HorizontalOptions="Start"/>
         </Grid>
     </ScrollView>
 </ContentPage>

@@ -4,7 +4,7 @@
              x:Class="MapMyWorldPCL.View.Page19LongTerm"
              BackgroundColor="#F5F1E8"
              NavigationPage.HasNavigationBar="False">
-    <StackLayout Margin="30">
+    <StackLayout Margin="30" Orientation="Vertical">
         <Label>
             <Label.FormattedText>
                 <FormattedString>
@@ -18,8 +18,9 @@
         <BoxView BackgroundColor="#F5F1E8" HeightRequest="10"/>
         <Label Text="What would you like to achieve in the next five years?"/>
         <Editor Text="{Binding TheFuture}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
-        <Button Clicked="OnSaveAndNext" Text="Next" AbsoluteLayout.LayoutBounds="1,1,0.2,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
-        <Button Clicked="Button_Back" Text="Back" 
-                AbsoluteLayout.LayoutBounds="1,0,40,60" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <StackLayout Orientation="Horizontal">
+            <Button Clicked="Button_Back" Text="Back" WidthRequest="80" HeightRequest="50" HorizontalOptions="StartAndExpand"/>
+            <Button Clicked="OnSaveAndNext" Text="Next" WidthRequest="80" HeightRequest="50" HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
     </StackLayout>
 </ContentPage>

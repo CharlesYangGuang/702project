@@ -39,7 +39,7 @@
         </StackLayout>
 
         <StackLayout Grid.Row="1" Grid.Column="1">
-            <Label Text="What I do now:" TextColor="#512769" FontSize="18"/>
+            <Label Text="What I do now:  " TextColor="#512769" FontSize="18"/>
             <Editor Text="{Binding WhatIM}" BackgroundColor="White" VerticalOptions="FillAndExpand"/>
         </StackLayout>
         <StackLayout Grid.Row="1" Grid.Column="2">
